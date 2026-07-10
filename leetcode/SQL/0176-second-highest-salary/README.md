@@ -10,6 +10,7 @@
 ## How I approached it
 
 The most efficient way to solve this problem in modern SQL (MySQL 8+) is to use **ROW_NUMBER()**, which assigns ranks to salaries and lets us directly select the Nth highest.  
+
 However, LeetCode’s environment runs on an older MySQL version that does not support window functions or `LIMIT` inside `IN` subqueries. Because of these restrictions, I used the universally supported `< MAX(salary)` fallback.
 
 **Steps I followed:**
