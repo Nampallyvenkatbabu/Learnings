@@ -38,7 +38,7 @@ Accepted [LeetCode](https://leetcode.com) solutions, each written up step by ste
 
 | # | Problem | Difficulty | Topics | Language | Solution | Syncs | Updated |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 175 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | Easy | Database | SQL | [approach](SQL/0175-combine-two-tables/README.md)&nbsp;·&nbsp;[code](SQL/0175-combine-two-tables/0175-combine-two-tables.sql) | 1 | Jul&nbsp;10,&nbsp;2026 |
+| 175 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | Easy | Database | SQL | [approach](SQL/0175-combine-two-tables/README.md)&nbsp;·&nbsp;[code](SQL/0175-combine-two-tables/0175-combine-two-tables.sql) | 2 | Jul&nbsp;10,&nbsp;2026 |
 | 176 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | Medium | Database | SQL | [approach](SQL/0176-second-highest-salary/README.md)&nbsp;·&nbsp;[code](SQL/0176-second-highest-salary/0176-second-highest-salary.sql) | 1 | Jul&nbsp;10,&nbsp;2026 |
 | 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | Easy | Database | Python · Pandas | [approach](Python/Pandas/0595-big-countries/README.md)&nbsp;·&nbsp;[code](Python/Pandas/0595-big-countries/0595-big-countries.py) | 1 | Jul&nbsp;10,&nbsp;2026 |
 
