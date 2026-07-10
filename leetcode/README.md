@@ -5,18 +5,19 @@ Accepted [LeetCode](https://leetcode.com) solutions, each written up step by ste
 ## Progress
 
 <!-- LEETCODE_SYNC_STATS_START -->
-![Solved: 1](https://img.shields.io/badge/Solved-1-2cbb5d?style=flat-square)
-![Easy: 0](https://img.shields.io/badge/Easy-0-00b8a3?style=flat-square)
+![Solved: 2](https://img.shields.io/badge/Solved-2-2cbb5d?style=flat-square)
+![Easy: 1](https://img.shields.io/badge/Easy-1-00b8a3?style=flat-square)
 ![Medium: 1](https://img.shields.io/badge/Medium-1-ffc01e?style=flat-square)
 ![Hard: 0](https://img.shields.io/badge/Hard-0-ff375f?style=flat-square)
 ![Updated: Jul 10, 2026](https://img.shields.io/badge/Updated-Jul%2010%2C%202026-555555?style=flat-square)
 
-![Solved by difficulty](.assets/progress-0-1-0.svg)
+![Solved by difficulty](.assets/progress-1-1-0.svg)
 
 ### By language
 
 | Folder | Problems | Easy | Medium | Hard | Last updated |
 |:---:|:---:|:---:|:---:|:---:|:---:|
+| [Python](Python/README.md) | 1 | 1 | 0 | 0 | Jul&nbsp;10,&nbsp;2026 |
 | [SQL](SQL/README.md) | 1 | 0 | 1 | 0 | Jul&nbsp;10,&nbsp;2026 |
 
 <details>
@@ -24,7 +25,7 @@ Accepted [LeetCode](https://leetcode.com) solutions, each written up step by ste
 
 | Topic | Solved | Easy | Medium | Hard | Problems |
 |:--|:--:|:--:|:--:|:--:|:--|
-| **Database** | 1 | 0 | 1 | 0 | [176. Second Highest Salary](SQL/0176-second-highest-salary/README.md) |
+| **Database** | 2 | 1 | 1 | 0 | [176. Second Highest Salary](SQL/0176-second-highest-salary/README.md), [595. Big Countries](Python/Pandas/0595-big-countries/README.md) |
 
 </details>
 <!-- LEETCODE_SYNC_STATS_END -->
@@ -33,11 +34,12 @@ Accepted [LeetCode](https://leetcode.com) solutions, each written up step by ste
 
 <!-- LEETCODE_SYNC_TABLE_START -->
 <details>
-<summary><b>All 1 problem</b></summary>
+<summary><b>All 2 problems</b></summary>
 
 | # | Problem | Difficulty | Topics | Language | Solution | Syncs | Updated |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 176 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | Medium | Database | SQL | [approach](SQL/0176-second-highest-salary/README.md)&nbsp;·&nbsp;[code](SQL/0176-second-highest-salary/0176-second-highest-salary.sql) | 1 | Jul&nbsp;10,&nbsp;2026 |
+| 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | Easy | Database | Python · Pandas | [approach](Python/Pandas/0595-big-countries/README.md)&nbsp;·&nbsp;[code](Python/Pandas/0595-big-countries/0595-big-countries.py) | 1 | Jul&nbsp;10,&nbsp;2026 |
 
 <sub><b>Syncs</b> = accepted pushes for that problem, so a re-solve bumps it.</sub>
 
