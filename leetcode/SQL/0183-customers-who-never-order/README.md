@@ -7,41 +7,39 @@
 ![Database](https://img.shields.io/badge/Database-30363d?style=flat-square)
 ![Solved Jul 10, 2026](https://img.shields.io/badge/Solved%20Jul%2010%2C%202026-555555?style=flat-square)
 
-##🧠 How I Approached It
-I needed to find customers who never ordered anything. My first thought was to use a NOT IN clause, since it directly checks for absence in the Orders table. However, I realized that a JOIN can also solve this problem and is often more reliable.
+## 🧠 How I Approached It
+I needed to find customers who never ordered anything. My first thought was to use a `NOT IN` clause, since it directly checks for absence in the `Orders` table. However, I realized that a `JOIN` can also solve this problem and is often more reliable.
 
-🔎 How I Got There
-The Orders table contains only customer IDs that have placed orders.
+---
 
-Using NOT IN allows me to filter customers whose IDs are missing from that list.
+### 🔎 How I Got There
+- The `Orders` table contains only customer IDs that have placed orders.  
+- Using `NOT IN` allows me to filter customers whose IDs are missing from that list.  
+- But `NOT IN` has two limitations:  
+  1. It fails if the subquery returns `NULL`.  
+  2. It can be slower for large datasets because the database must process the entire subquery result.  
+- A `LEFT JOIN` with `IS NULL` avoids these issues and is optimized by the query planner.  
 
-But NOT IN has two limitations:
+---
 
-It fails if the subquery returns NULL.
+### 📝 Step‑by‑Step
+1. Select the required column (`name`) from the `Customers` table.  
+2. Use a `LEFT JOIN` to bring in matching rows from `Orders`.  
+3. Filter with `WHERE o.customerId IS NULL` to keep only customers who never ordered.  
 
-It can be slower for large datasets because the database must process the entire subquery result.
+---
 
-A LEFT JOIN with IS NULL avoids these issues and is optimized by the query planner.
+### 📌 Pattern to Remember
+- **Use JOIN when combining data between tables** — it’s efficient and safe.  
+- **Use NOT IN only for small static lists** — avoid it for subqueries with possible `NULL`s.  
+- **Use NOT EXISTS for existence checks** — it short‑circuits and avoids `NULL` pitfalls.  
 
-📝 Step‑by‑Step
-Select the required column (name) from the Customers table.
+---
 
-Use a LEFT JOIN to bring in matching rows from Orders.
+### ⚠️ Watch Out For
+- `NOT IN` can fail if the subquery includes `NULL`.  
+- Large datasets may perform better with `LEFT JOIN + IS NULL` or `NOT EXISTS`.  
 
-Filter with WHERE o.customerId IS NULL to keep only customers who never ordered.
-
-📌 Pattern to Remember
-Use JOIN when combining data between tables — it’s efficient and safe.
-
-Use NOT IN only for small static lists — avoid it for subqueries with possible NULLs.
-
-Use NOT EXISTS for existence checks — it short‑circuits and avoids NULL pitfalls.
-
-⚠️ Watch Out For
-
-NOT IN can fail if the subquery includes NULL.
-
-Large datasets may perform better with LEFT JOIN + IS NULL or NOT EXISTS.
 
 ## Solution
 
