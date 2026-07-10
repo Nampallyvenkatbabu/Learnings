@@ -7,17 +7,17 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 ## Progress
 
 <!-- LEETCODE_SYNC_STATS_START -->
-![Solved: 6](https://img.shields.io/badge/Solved-6-2cbb5d?style=flat-square)
+![Solved: 7](https://img.shields.io/badge/Solved-7-2cbb5d?style=flat-square)
 ![Easy: 5](https://img.shields.io/badge/Easy-5-00b8a3?style=flat-square)
-![Medium: 1](https://img.shields.io/badge/Medium-1-ffc01e?style=flat-square)
+![Medium: 2](https://img.shields.io/badge/Medium-2-ffc01e?style=flat-square)
 ![Hard: 0](https://img.shields.io/badge/Hard-0-ff375f?style=flat-square)
 ![Updated: Jul 11, 2026](https://img.shields.io/badge/Updated-Jul%2011%2C%202026-555555?style=flat-square)
 
-![Solved by difficulty](../.assets/progress-sql-5-1-0.svg)
+![Solved by difficulty](../.assets/progress-sql-5-2-0.svg)
 
 ### Topics covered
 
-![Database: 6](https://img.shields.io/badge/Database-6-30363d?style=flat-square)
+![Database: 7](https://img.shields.io/badge/Database-7-30363d?style=flat-square)
 <!-- LEETCODE_SYNC_STATS_END -->
 
 ## Problems
@@ -28,6 +28,7 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 175 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | Easy | Database | [approach](0175-combine-two-tables/README.md)&nbsp;·&nbsp;[code](0175-combine-two-tables/0175-combine-two-tables.sql) | 2 | Jul&nbsp;10,&nbsp;2026 |
 | 176 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | Medium | Database | [approach](0176-second-highest-salary/README.md)&nbsp;·&nbsp;[code](0176-second-highest-salary/0176-second-highest-salary.sql) | 2 | Jul&nbsp;11,&nbsp;2026 |
+| 177 | [Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/) | Medium | Database | [approach](0177-nth-highest-salary/README.md)&nbsp;·&nbsp;[code](0177-nth-highest-salary/0177-nth-highest-salary.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
 | 181 | [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | Easy | Database | [approach](0181-employees-earning-more-than-their-managers/README.md)&nbsp;·&nbsp;[code](0181-employees-earning-more-than-their-managers/0181-employees-earning-more-than-their-managers.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
 | 182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | Easy | Database | [approach](0182-duplicate-emails/README.md)&nbsp;·&nbsp;[code](0182-duplicate-emails/0182-duplicate-emails.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
 | 183 | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | Easy | Database | [approach](0183-customers-who-never-order/README.md)&nbsp;·&nbsp;[code](0183-customers-who-never-order/0183-customers-who-never-order.sql) | 2 | Jul&nbsp;10,&nbsp;2026 |
