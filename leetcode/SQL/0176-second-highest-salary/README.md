@@ -5,7 +5,7 @@
 ![Medium](https://img.shields.io/badge/Medium-ffc01e?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-2f81f7?style=flat-square)
 ![Database](https://img.shields.io/badge/Database-30363d?style=flat-square)
-![Solved Jul 10, 2026](https://img.shields.io/badge/Solved%20Jul%2010%2C%202026-555555?style=flat-square)
+![Solved Jul 11, 2026](https://img.shields.io/badge/Solved%20Jul%2011%2C%202026-555555?style=flat-square)
 
 ## How I approached it
 
@@ -25,17 +25,47 @@ I find the second highest salary by taking the max of all salaries that are less
 
 ![Time: O(n)](https://img.shields.io/badge/Time-O(n)-8250df?style=flat-square)
 ![Space: O(1)](https://img.shields.io/badge/Space-O(1)-d29922?style=flat-square)
-![Runtime: 278 ms (beats 71.8%)](https://img.shields.io/badge/Runtime-278%20ms%20(beats%2071.8%25)-2cbb5d?style=flat-square)
+![Runtime: 263 ms (beats 95.6%)](https://img.shields.io/badge/Runtime-263%20ms%20(beats%2095.6%25)-2cbb5d?style=flat-square)
 ![Memory: 0B (beats 100.0%)](https://img.shields.io/badge/Memory-0B%20(beats%20100.0%25)-2f81f7?style=flat-square)
 
 ```sql
-# Write your MySQL query statement below
+-- ✅ 1st Alternative: Comparison-based < MAX(salary)
+-- Works in ALL MySQL versions (including LeetCode).
+-- Simple and intuitive for 2nd highest, but requires nesting for 3rd, 4th, etc.
+SELECT MAX(salary) AS SecondHighestSalary
+FROM Employee
+WHERE salary < (
+    SELECT MAX(salary)
+    FROM Employee
+);
 
-select max(salary) as SecondHighestSalary from Employee where salary
-<
-(
-    select max(salary) from Employee
-) ;
+/*
+-- ✅ 2nd Alternative: ROW_NUMBER() (best for optimization, but needs MySQL 8+)
+-- Modern, flexible, avoids LIMIT restriction, easy to extend to Nth highest.
+-- ❌ Not usable on LeetCode because it runs MySQL 5.x (no window functions).
+SELECT MAX(salary) AS SecondHighestSalary
+FROM (
+    SELECT salary,
+           ROW_NUMBER() OVER (ORDER BY salary DESC) AS rn
+    FROM Employee
+) ranked
+WHERE rn = 2;   -- rn = 2 → second highest salary
+
+
+
+-- ✅ 3rd Alternative: LIMIT + OFFSET
+-- Clean rank-based approach, supported in MySQL 8+.
+-- ❌ Not usable on LeetCode because older MySQL doesn’t allow LIMIT inside IN subqueries.
+SELECT MAX(salary) AS SecondHighestSalary
+FROM Employee
+WHERE salary = (
+    SELECT DISTINCT salary
+    FROM Employee
+    ORDER BY salary DESC
+    LIMIT 1 OFFSET 1   -- OFFSET 1 → second highest
+);
+
+*/
 ```
 
 Source: [0176-second-highest-salary.sql](./0176-second-highest-salary.sql)
