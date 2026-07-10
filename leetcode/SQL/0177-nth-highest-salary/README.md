@@ -27,18 +27,20 @@ I need to find the nth highest distinct salary, and my first idea was to sort th
 
 ![Time: O(1)](https://img.shields.io/badge/Time-O(1)-8250df?style=flat-square)
 ![Space: O(1)](https://img.shields.io/badge/Space-O(1)-d29922?style=flat-square)
+![Runtime: 457 ms (beats 60.4%)](https://img.shields.io/badge/Runtime-457%20ms%20(beats%2060.4%25)-2cbb5d?style=flat-square)
+![Memory: 0B (beats 100.0%)](https://img.shields.io/badge/Memory-0B%20(beats%20100.0%25)-2f81f7?style=flat-square)
 
 ```sql
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
   RETURN (
-    SELECT MAX(salary)
+    SELECT DISTINCT salary
     FROM (
         SELECT salary,
-               ROW_NUMBER() OVER (ORDER BY salary DESC) AS rn
+               DENSE_RANK() OVER (ORDER BY salary DESC) AS rnk
         FROM Employee
     ) ranked
-    WHERE rn = N
+    WHERE rnk = N
   );
 END;
 ```
