@@ -28,7 +28,7 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 175 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | Easy | Database | [approach](0175-combine-two-tables/README.md)&nbsp;·&nbsp;[code](0175-combine-two-tables/0175-combine-two-tables.sql) | 2 | Jul&nbsp;10,&nbsp;2026 |
 | 176 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | Medium | Database | [approach](0176-second-highest-salary/README.md)&nbsp;·&nbsp;[code](0176-second-highest-salary/0176-second-highest-salary.sql) | 1 | Jul&nbsp;10,&nbsp;2026 |
-| 183 | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | Easy | Database | [approach](0183-customers-who-never-order/README.md)&nbsp;·&nbsp;[code](0183-customers-who-never-order/0183-customers-who-never-order.sql) | 1 | Jul&nbsp;10,&nbsp;2026 |
+| 183 | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | Easy | Database | [approach](0183-customers-who-never-order/README.md)&nbsp;·&nbsp;[code](0183-customers-who-never-order/0183-customers-who-never-order.sql) | 2 | Jul&nbsp;10,&nbsp;2026 |
 
 <sub><b>Syncs</b> = accepted pushes for that problem, so a re-solve bumps it.</sub>
 
