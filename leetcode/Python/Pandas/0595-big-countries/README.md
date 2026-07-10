@@ -9,18 +9,17 @@
 
 ## How I approached it
 
-I need to find the countries that are big, which means they have a large `area` or a large `population`. My first idea was to use if statements, but that is too slow, and a `filter` can do the same thing faster.
+I filter the `World` table to get the big countries, which are the ones with a big `area` or a big `population`. My first idea was to use separate filters for `area` and `population`, but I realized I can combine them with `or`. This way fits because it is easy to read and understand.
 
-**How I got there:** I looked at the conditions for a country to be big and saw that it is either a large `area` or a large `population`, so I asked how I can filter a table based on two conditions. That led me to use the `or` operator to combine the two conditions.
+**How I got there:** I noticed that a country is big if it has a big `area` or a big `population`, so I thought about how to write that as a filter. The `or` operator seemed like the right choice because it lets me combine the two conditions in a straightforward way.
 
-1. Import the `pandas` library to work with tables.
-2. Define a function `big_countries` that takes a table `world` as input and returns a new table with the big countries.
-3. Use a `filter` to select the rows where the `area` is at least 3000000 or the `population` is at least 25000000.
-4. Select only the `name`, `population`, and `area` columns from the filtered table.
+1. Filter the `World` table to get the rows where `area` is at least 3000000 or `population` is at least 25000000.
+2. Use the `or` operator to combine the two conditions, so a country is included if either condition is true.
+3. Select only the `name`, `population`, and `area` columns from the filtered table.
 
-**Pattern to remember:** When I need to select rows based on multiple conditions, I can use the `or` operator to combine the conditions and then use a `filter` to select the rows.
+**Pattern to remember:** When a condition has two parts that are alternatives, use the `or` operator to combine them in a filter.
 
-**Watch out for:** If I forget to use the `or` operator and use the `and` operator instead, I will get only the countries that are big in both `area` and `population`, which is not what I want.
+**Watch out for:** Forgetting to use the `or` operator and trying to filter the table in two separate steps can lead to incorrect results.
 
 ## Solution
 
