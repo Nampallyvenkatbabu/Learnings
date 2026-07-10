@@ -9,17 +9,21 @@
 
 ## How I approached it
 
-I find the second highest salary by taking the max of all salaries that are less than the highest salary, which I get with a subquery. My first idea was to sort all salaries and pick the second one, but that does not work because salaries are not unique. Using a subquery to find the highest salary first makes this work.
+The most efficient way to solve this problem in modern SQL (MySQL 8+) is to use **ROW_NUMBER()**, which assigns ranks to salaries and lets us directly select the Nth highest.  
+However, LeetCode’s environment runs on an older MySQL version that does not support window functions or `LIMIT` inside `IN` subqueries. Because of these restrictions, I used the universally supported `< MAX(salary)` fallback.
 
-**How I got there:** I noticed that I need to find the highest salary first, so I can exclude it from the rest of the salaries. Then I can take the max of the remaining salaries, which will be the second highest. I used a subquery to find the highest salary.
+**Steps I followed:**
+1. Find the highest salary with a subquery.  
+2. Exclude it from the rest of the salaries.  
+3. Take the max of the remaining salaries, which will be the second highest.  
 
-1. Find the highest salary with a subquery.
-2. Select all salaries that are less than the highest salary.
-3. Take the max of these salaries, which will be the second highest.
+**Pattern to remember:**  
+- Use `ROW_NUMBER()` for efficiency in modern SQL (2nd to Nth highest).  
+- Use `LIMIT + OFFSET` if supported.  
+- Fall back to `< MAX(salary)` when restricted by older MySQL versions.  
 
-**Pattern to remember:** When I need to find the second highest or second smallest of something, I can find the highest or smallest first, then find the highest or smallest of the rest.
-
-**Watch out for:** If there is only one unique salary, this will return null, which is correct, but I need to make sure my query handles this case.
+**Watch out for:**  
+If there is only one unique salary, the query correctly returns `NULL`.
 
 ## Solution
 
@@ -64,8 +68,8 @@ WHERE salary = (
     ORDER BY salary DESC
     LIMIT 1 OFFSET 1   -- OFFSET 1 → second highest
 );
-
 */
+
 ```
 
 Source: [0176-second-highest-salary.sql](./0176-second-highest-salary.sql)
