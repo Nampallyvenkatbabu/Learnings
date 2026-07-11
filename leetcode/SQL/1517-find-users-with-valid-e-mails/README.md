@@ -25,13 +25,15 @@ I need to filter the `Users` table for rows where the `mail` column has a valid 
 
 ![Time: O(n)](https://img.shields.io/badge/Time-O(n)-8250df?style=flat-square)
 ![Space: O(1)](https://img.shields.io/badge/Space-O(1)-d29922?style=flat-square)
+![Runtime: 922 ms (beats 18.6%)](https://img.shields.io/badge/Runtime-922%20ms%20(beats%2018.6%25)-2cbb5d?style=flat-square)
+![Memory: 0B (beats 100.0%)](https://img.shields.io/badge/Memory-0B%20(beats%20100.0%25)-2f81f7?style=flat-square)
 
 ```sql
 # Write your MySQL query statement below
 
 SELECT user_id, name, mail
 FROM Users
-WHERE mail REGEXP '^[A-Za-z][A-Za-z0-9_.-]*@leetcode\\.com$';
+WHERE REGEXP_like(mail,'^[A-Za-z][A-Za-z0-9_.-]*@leetcode\\.com$','c');
 ```
 
 Source: [1517-find-users-with-valid-e-mails.sql](./1517-find-users-with-valid-e-mails.sql)
