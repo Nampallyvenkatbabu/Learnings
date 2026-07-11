@@ -31,7 +31,7 @@ I need to filter the `Users` table for rows where the `mail` column has a valid 
 
 select user_id,name,mail
 from Users
-where mail regexp '^[A-Za-z][A-Za-z0-9_.-]*@leetcode\\.com$'
+WHERE mail REGEXP '^[A-Za-z][A-Za-z0-9_.-]*@leetcode\\.com$'
 ```
 
 Source: [1517-find-users-with-valid-e-mails.sql](./1517-find-users-with-valid-e-mails.sql)
