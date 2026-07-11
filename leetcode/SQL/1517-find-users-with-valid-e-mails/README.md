@@ -29,9 +29,9 @@ I need to filter the `Users` table for rows where the `mail` column has a valid 
 ```sql
 # Write your MySQL query statement below
 
-select user_id,name,mail
-from Users
-WHERE mail REGEXP '^[A-Za-z]+[A-Za-z0-9_.-]*@leetcode\\.com$'
+SELECT *
+FROM Users
+WHERE REGEXP_LIKE(mail, '^[a-z]+[a-z0-9._-]*@leetcode\\.com$', 'c');
 ```
 
 Source: [1517-find-users-with-valid-e-mails.sql](./1517-find-users-with-valid-e-mails.sql)
