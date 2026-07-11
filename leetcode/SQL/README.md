@@ -7,17 +7,17 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 ## Progress
 
 <!-- LEETCODE_SYNC_STATS_START -->
-![Solved: 9](https://img.shields.io/badge/Solved-9-2cbb5d?style=flat-square)
-![Easy: 7](https://img.shields.io/badge/Easy-7-00b8a3?style=flat-square)
+![Solved: 10](https://img.shields.io/badge/Solved-10-2cbb5d?style=flat-square)
+![Easy: 8](https://img.shields.io/badge/Easy-8-00b8a3?style=flat-square)
 ![Medium: 2](https://img.shields.io/badge/Medium-2-ffc01e?style=flat-square)
 ![Hard: 0](https://img.shields.io/badge/Hard-0-ff375f?style=flat-square)
 ![Updated: Jul 11, 2026](https://img.shields.io/badge/Updated-Jul%2011%2C%202026-555555?style=flat-square)
 
-![Solved by difficulty](../.assets/progress-sql-7-2-0.svg)
+![Solved by difficulty](../.assets/progress-sql-8-2-0.svg)
 
 ### Topics covered
 
-![Database: 9](https://img.shields.io/badge/Database-9-30363d?style=flat-square)
+![Database: 10](https://img.shields.io/badge/Database-10-30363d?style=flat-square)
 <!-- LEETCODE_SYNC_STATS_END -->
 
 ## Problems
@@ -35,6 +35,7 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 | 196 | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | Easy | Database | [approach](0196-delete-duplicate-emails/README.md)&nbsp;·&nbsp;[code](0196-delete-duplicate-emails/0196-delete-duplicate-emails.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
 | 197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | Easy | Database | [approach](0197-rising-temperature/README.md)&nbsp;·&nbsp;[code](0197-rising-temperature/0197-rising-temperature.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
 | 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | Easy | Database | [approach](0595-big-countries/README.md)&nbsp;·&nbsp;[code](0595-big-countries/0595-big-countries.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
+| 1517 | [Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/) | Easy | Database | [approach](1517-find-users-with-valid-e-mails/README.md)&nbsp;·&nbsp;[code](1517-find-users-with-valid-e-mails/1517-find-users-with-valid-e-mails.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
 
 <sub><b>Syncs</b> = accepted pushes for that problem, so a re-solve bumps it.</sub>
 
