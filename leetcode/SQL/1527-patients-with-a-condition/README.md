@@ -25,6 +25,8 @@ I need to find patients with conditions that start with `DIAB1`, so I use a regu
 
 ![Time: O(n)](https://img.shields.io/badge/Time-O(n)-8250df?style=flat-square)
 ![Space: O(1)](https://img.shields.io/badge/Space-O(1)-d29922?style=flat-square)
+![Runtime: 529 ms (beats 10.6%)](https://img.shields.io/badge/Runtime-529%20ms%20(beats%2010.6%25)-2cbb5d?style=flat-square)
+![Memory: 0B (beats 100.0%)](https://img.shields.io/badge/Memory-0B%20(beats%20100.0%25)-2f81f7?style=flat-square)
 
 ```sql
 # Write your MySQL query statement below
@@ -33,7 +35,7 @@ select patient_id,
 patient_name,
 conditions
 from Patients
-where conditions REGEXP 'DIAB1'
+where conditions REGEXP '(^| )DIAB1'
 ```
 
 Source: [1527-patients-with-a-condition.sql](./1527-patients-with-a-condition.sql)

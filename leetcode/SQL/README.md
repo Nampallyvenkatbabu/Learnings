@@ -36,7 +36,7 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 | 197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | Easy | Database | [approach](0197-rising-temperature/README.md)&nbsp;·&nbsp;[code](0197-rising-temperature/0197-rising-temperature.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
 | 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | Easy | Database | [approach](0595-big-countries/README.md)&nbsp;·&nbsp;[code](0595-big-countries/0595-big-countries.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
 | 1517 | [Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/) | Easy | Database | [approach](1517-find-users-with-valid-e-mails/README.md)&nbsp;·&nbsp;[code](1517-find-users-with-valid-e-mails/1517-find-users-with-valid-e-mails.sql) | 8 | Jul&nbsp;11,&nbsp;2026 |
-| 1527 | [Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | Easy | Database | [approach](1527-patients-with-a-condition/README.md)&nbsp;·&nbsp;[code](1527-patients-with-a-condition/1527-patients-with-a-condition.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
+| 1527 | [Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | Easy | Database | [approach](1527-patients-with-a-condition/README.md)&nbsp;·&nbsp;[code](1527-patients-with-a-condition/1527-patients-with-a-condition.sql) | 2 | Jul&nbsp;12,&nbsp;2026 |
 
 <sub><b>Syncs</b> = accepted pushes for that problem, so a re-solve bumps it.</sub>
 

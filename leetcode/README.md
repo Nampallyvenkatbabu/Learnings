@@ -49,7 +49,7 @@ Accepted [LeetCode](https://leetcode.com) solutions, each written up step by ste
 | 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | Easy | Database | Python · Pandas | [approach](Python/Pandas/0595-big-countries/README.md)&nbsp;·&nbsp;[code](Python/Pandas/0595-big-countries/0595-big-countries.py) | 1 | Jul&nbsp;10,&nbsp;2026 |
 | 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | Easy | Database | SQL | [approach](SQL/0595-big-countries/README.md)&nbsp;·&nbsp;[code](SQL/0595-big-countries/0595-big-countries.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
 | 1517 | [Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/) | Easy | Database | SQL | [approach](SQL/1517-find-users-with-valid-e-mails/README.md)&nbsp;·&nbsp;[code](SQL/1517-find-users-with-valid-e-mails/1517-find-users-with-valid-e-mails.sql) | 8 | Jul&nbsp;11,&nbsp;2026 |
-| 1527 | [Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | Easy | Database | SQL | [approach](SQL/1527-patients-with-a-condition/README.md)&nbsp;·&nbsp;[code](SQL/1527-patients-with-a-condition/1527-patients-with-a-condition.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
+| 1527 | [Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | Easy | Database | SQL | [approach](SQL/1527-patients-with-a-condition/README.md)&nbsp;·&nbsp;[code](SQL/1527-patients-with-a-condition/1527-patients-with-a-condition.sql) | 2 | Jul&nbsp;12,&nbsp;2026 |
 
 <sub><b>Syncs</b> = accepted pushes for that problem, so a re-solve bumps it.</sub>
 
