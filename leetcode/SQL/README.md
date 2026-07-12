@@ -7,17 +7,17 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 ## Progress
 
 <!-- LEETCODE_SYNC_STATS_START -->
-![Solved: 13](https://img.shields.io/badge/Solved-13-2cbb5d?style=flat-square)
+![Solved: 14](https://img.shields.io/badge/Solved-14-2cbb5d?style=flat-square)
 ![Easy: 11](https://img.shields.io/badge/Easy-11-00b8a3?style=flat-square)
-![Medium: 2](https://img.shields.io/badge/Medium-2-ffc01e?style=flat-square)
+![Medium: 3](https://img.shields.io/badge/Medium-3-ffc01e?style=flat-square)
 ![Hard: 0](https://img.shields.io/badge/Hard-0-ff375f?style=flat-square)
 ![Updated: Jul 12, 2026](https://img.shields.io/badge/Updated-Jul%2012%2C%202026-555555?style=flat-square)
 
-![Solved by difficulty](../.assets/progress-sql-11-2-0.svg)
+![Solved by difficulty](../.assets/progress-sql-11-3-0.svg)
 
 ### Topics covered
 
-![Database: 13](https://img.shields.io/badge/Database-13-30363d?style=flat-square)
+![Database: 14](https://img.shields.io/badge/Database-14-30363d?style=flat-square)
 <!-- LEETCODE_SYNC_STATS_END -->
 
 ## Problems
@@ -37,6 +37,7 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 | 577 | [Employee Bonus](https://leetcode.com/problems/employee-bonus/) | Easy | Database | [approach](0577-employee-bonus/README.md)&nbsp;·&nbsp;[code](0577-employee-bonus/0577-employee-bonus.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
 | 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | Easy | Database | [approach](0595-big-countries/README.md)&nbsp;·&nbsp;[code](0595-big-countries/0595-big-countries.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
 | 620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | Easy | Database | [approach](0620-not-boring-movies/README.md)&nbsp;·&nbsp;[code](0620-not-boring-movies/0620-not-boring-movies.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
+| 1045 | [Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/) | Medium | Database | [approach](1045-customers-who-bought-all-products/README.md)&nbsp;·&nbsp;[code](1045-customers-who-bought-all-products/1045-customers-who-bought-all-products.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
 | 1517 | [Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/) | Easy | Database | [approach](1517-find-users-with-valid-e-mails/README.md)&nbsp;·&nbsp;[code](1517-find-users-with-valid-e-mails/1517-find-users-with-valid-e-mails.sql) | 8 | Jul&nbsp;11,&nbsp;2026 |
 | 1527 | [Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | Easy | Database | [approach](1527-patients-with-a-condition/README.md)&nbsp;·&nbsp;[code](1527-patients-with-a-condition/1527-patients-with-a-condition.sql) | 2 | Jul&nbsp;12,&nbsp;2026 |
 
