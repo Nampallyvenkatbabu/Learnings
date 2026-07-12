@@ -5,27 +5,27 @@ Accepted [LeetCode](https://leetcode.com) solutions, each written up step by ste
 ## Progress
 
 <!-- LEETCODE_SYNC_STATS_START -->
-![Solved: 13](https://img.shields.io/badge/Solved-13-2cbb5d?style=flat-square)
-![Easy: 11](https://img.shields.io/badge/Easy-11-00b8a3?style=flat-square)
+![Solved: 14](https://img.shields.io/badge/Solved-14-2cbb5d?style=flat-square)
+![Easy: 12](https://img.shields.io/badge/Easy-12-00b8a3?style=flat-square)
 ![Medium: 2](https://img.shields.io/badge/Medium-2-ffc01e?style=flat-square)
 ![Hard: 0](https://img.shields.io/badge/Hard-0-ff375f?style=flat-square)
 ![Updated: Jul 12, 2026](https://img.shields.io/badge/Updated-Jul%2012%2C%202026-555555?style=flat-square)
 
-![Solved by difficulty](.assets/progress-11-2-0.svg)
+![Solved by difficulty](.assets/progress-12-2-0.svg)
 
 ### By language
 
 | Folder | Problems | Easy | Medium | Hard | Last updated |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | [Python](Python/README.md) | 1 | 1 | 0 | 0 | Jul&nbsp;10,&nbsp;2026 |
-| [SQL](SQL/README.md) | 12 | 10 | 2 | 0 | Jul&nbsp;12,&nbsp;2026 |
+| [SQL](SQL/README.md) | 13 | 11 | 2 | 0 | Jul&nbsp;12,&nbsp;2026 |
 
 <details>
 <summary><b>By topic</b> · 1 topic</summary>
 
 | Topic | Solved | Easy | Medium | Hard | Problems |
 |:--|:--:|:--:|:--:|:--:|:--|
-| **Database** | 13 | 11 | 2 | 0 | [175. Combine Two Tables](SQL/0175-combine-two-tables/README.md), [176. Second Highest Salary](SQL/0176-second-highest-salary/README.md), [177. Nth Highest Salary](SQL/0177-nth-highest-salary/README.md), [181. Employees Earning More Than Their Managers](SQL/0181-employees-earning-more-than-their-managers/README.md), [182. Duplicate Emails](SQL/0182-duplicate-emails/README.md), [183. Customers Who Never Order](SQL/0183-customers-who-never-order/README.md), [196. Delete Duplicate Emails](SQL/0196-delete-duplicate-emails/README.md), [197. Rising Temperature](SQL/0197-rising-temperature/README.md), [595. Big Countries](Python/Pandas/0595-big-countries/README.md), [595. Big Countries](SQL/0595-big-countries/README.md), [620. Not Boring Movies](SQL/0620-not-boring-movies/README.md), [1517. Find Users With Valid E-Mails](SQL/1517-find-users-with-valid-e-mails/README.md), [1527. Patients With a Condition](SQL/1527-patients-with-a-condition/README.md) |
+| **Database** | 14 | 12 | 2 | 0 | [175. Combine Two Tables](SQL/0175-combine-two-tables/README.md), [176. Second Highest Salary](SQL/0176-second-highest-salary/README.md), [177. Nth Highest Salary](SQL/0177-nth-highest-salary/README.md), [181. Employees Earning More Than Their Managers](SQL/0181-employees-earning-more-than-their-managers/README.md), [182. Duplicate Emails](SQL/0182-duplicate-emails/README.md), [183. Customers Who Never Order](SQL/0183-customers-who-never-order/README.md), [196. Delete Duplicate Emails](SQL/0196-delete-duplicate-emails/README.md), [197. Rising Temperature](SQL/0197-rising-temperature/README.md), [577. Employee Bonus](SQL/0577-employee-bonus/README.md), [595. Big Countries](Python/Pandas/0595-big-countries/README.md), [595. Big Countries](SQL/0595-big-countries/README.md), [620. Not Boring Movies](SQL/0620-not-boring-movies/README.md), [1517. Find Users With Valid E-Mails](SQL/1517-find-users-with-valid-e-mails/README.md), [1527. Patients With a Condition](SQL/1527-patients-with-a-condition/README.md) |
 
 </details>
 <!-- LEETCODE_SYNC_STATS_END -->
@@ -34,7 +34,7 @@ Accepted [LeetCode](https://leetcode.com) solutions, each written up step by ste
 
 <!-- LEETCODE_SYNC_TABLE_START -->
 <details>
-<summary><b>All 13 problems</b></summary>
+<summary><b>All 14 problems</b></summary>
 
 | # | Problem | Difficulty | Topics | Language | Solution | Syncs | Updated |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -46,6 +46,7 @@ Accepted [LeetCode](https://leetcode.com) solutions, each written up step by ste
 | 183 | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | Easy | Database | SQL | [approach](SQL/0183-customers-who-never-order/README.md)&nbsp;·&nbsp;[code](SQL/0183-customers-who-never-order/0183-customers-who-never-order.sql) | 2 | Jul&nbsp;10,&nbsp;2026 |
 | 196 | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | Easy | Database | SQL | [approach](SQL/0196-delete-duplicate-emails/README.md)&nbsp;·&nbsp;[code](SQL/0196-delete-duplicate-emails/0196-delete-duplicate-emails.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
 | 197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | Easy | Database | SQL | [approach](SQL/0197-rising-temperature/README.md)&nbsp;·&nbsp;[code](SQL/0197-rising-temperature/0197-rising-temperature.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
+| 577 | [Employee Bonus](https://leetcode.com/problems/employee-bonus/) | Easy | Database | SQL | [approach](SQL/0577-employee-bonus/README.md)&nbsp;·&nbsp;[code](SQL/0577-employee-bonus/0577-employee-bonus.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
 | 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | Easy | Database | Python · Pandas | [approach](Python/Pandas/0595-big-countries/README.md)&nbsp;·&nbsp;[code](Python/Pandas/0595-big-countries/0595-big-countries.py) | 1 | Jul&nbsp;10,&nbsp;2026 |
 | 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | Easy | Database | SQL | [approach](SQL/0595-big-countries/README.md)&nbsp;·&nbsp;[code](SQL/0595-big-countries/0595-big-countries.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
 | 620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | Easy | Database | SQL | [approach](SQL/0620-not-boring-movies/README.md)&nbsp;·&nbsp;[code](SQL/0620-not-boring-movies/0620-not-boring-movies.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
