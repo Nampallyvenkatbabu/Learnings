@@ -7,17 +7,17 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 ## Progress
 
 <!-- LEETCODE_SYNC_STATS_START -->
-![Solved: 15](https://img.shields.io/badge/Solved-15-2cbb5d?style=flat-square)
-![Easy: 12](https://img.shields.io/badge/Easy-12-00b8a3?style=flat-square)
+![Solved: 16](https://img.shields.io/badge/Solved-16-2cbb5d?style=flat-square)
+![Easy: 13](https://img.shields.io/badge/Easy-13-00b8a3?style=flat-square)
 ![Medium: 3](https://img.shields.io/badge/Medium-3-ffc01e?style=flat-square)
 ![Hard: 0](https://img.shields.io/badge/Hard-0-ff375f?style=flat-square)
-![Updated: Jul 12, 2026](https://img.shields.io/badge/Updated-Jul%2012%2C%202026-555555?style=flat-square)
+![Updated: Jul 15, 2026](https://img.shields.io/badge/Updated-Jul%2015%2C%202026-555555?style=flat-square)
 
-![Solved by difficulty](../.assets/progress-sql-12-3-0.svg)
+![Solved by difficulty](../.assets/progress-sql-13-3-0.svg)
 
 ### Topics covered
 
-![Database: 15](https://img.shields.io/badge/Database-15-30363d?style=flat-square)
+![Database: 16](https://img.shields.io/badge/Database-16-30363d?style=flat-square)
 <!-- LEETCODE_SYNC_STATS_END -->
 
 ## Problems
@@ -34,6 +34,7 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 | 183 | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | Easy | Database | [approach](0183-customers-who-never-order/README.md)&nbsp;·&nbsp;[code](0183-customers-who-never-order/0183-customers-who-never-order.sql) | 2 | Jul&nbsp;10,&nbsp;2026 |
 | 196 | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | Easy | Database | [approach](0196-delete-duplicate-emails/README.md)&nbsp;·&nbsp;[code](0196-delete-duplicate-emails/0196-delete-duplicate-emails.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
 | 197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | Easy | Database | [approach](0197-rising-temperature/README.md)&nbsp;·&nbsp;[code](0197-rising-temperature/0197-rising-temperature.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
+| 511 | [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | Easy | Database | [approach](0511-game-play-analysis-i/README.md)&nbsp;·&nbsp;[code](0511-game-play-analysis-i/0511-game-play-analysis-i.sql) | 1 | Jul&nbsp;15,&nbsp;2026 |
 | 577 | [Employee Bonus](https://leetcode.com/problems/employee-bonus/) | Easy | Database | [approach](0577-employee-bonus/README.md)&nbsp;·&nbsp;[code](0577-employee-bonus/0577-employee-bonus.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
 | 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | Easy | Database | [approach](0595-big-countries/README.md)&nbsp;·&nbsp;[code](0595-big-countries/0595-big-countries.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
 | 620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | Easy | Database | [approach](0620-not-boring-movies/README.md)&nbsp;·&nbsp;[code](0620-not-boring-movies/0620-not-boring-movies.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
