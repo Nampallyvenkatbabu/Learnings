@@ -26,6 +26,8 @@ I want the customer who placed the most orders, which is the one with the highes
 
 ![Time: O(n)](https://img.shields.io/badge/Time-O(n)-8250df?style=flat-square)
 ![Space: O(n)](https://img.shields.io/badge/Space-O(n)-d29922?style=flat-square)
+![Runtime: 416 ms (beats 99.3%)](https://img.shields.io/badge/Runtime-416%20ms%20(beats%2099.3%25)-2cbb5d?style=flat-square)
+![Memory: 0B (beats 100.0%)](https://img.shields.io/badge/Memory-0B%20(beats%20100.0%25)-2f81f7?style=flat-square)
 
 ```sql
 # Write your MySQL query statement below
@@ -33,8 +35,7 @@ I want the customer who placed the most orders, which is the one with the highes
 select customer_number
 from Orders
 Group by customer_number
-having count(*) > 1
-order by count(*)
+order by count(*) desc
 Limit 1
 ```
 
