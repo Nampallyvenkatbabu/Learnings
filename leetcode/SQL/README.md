@@ -7,17 +7,17 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 ## Progress
 
 <!-- LEETCODE_SYNC_STATS_START -->
-![Solved: 19](https://img.shields.io/badge/Solved-19-2cbb5d?style=flat-square)
-![Easy: 16](https://img.shields.io/badge/Easy-16-00b8a3?style=flat-square)
+![Solved: 20](https://img.shields.io/badge/Solved-20-2cbb5d?style=flat-square)
+![Easy: 17](https://img.shields.io/badge/Easy-17-00b8a3?style=flat-square)
 ![Medium: 3](https://img.shields.io/badge/Medium-3-ffc01e?style=flat-square)
 ![Hard: 0](https://img.shields.io/badge/Hard-0-ff375f?style=flat-square)
 ![Updated: Jul 15, 2026](https://img.shields.io/badge/Updated-Jul%2015%2C%202026-555555?style=flat-square)
 
-![Solved by difficulty](../.assets/progress-sql-16-3-0.svg)
+![Solved by difficulty](../.assets/progress-sql-17-3-0.svg)
 
 ### Topics covered
 
-![Database: 19](https://img.shields.io/badge/Database-19-30363d?style=flat-square)
+![Database: 20](https://img.shields.io/badge/Database-20-30363d?style=flat-square)
 <!-- LEETCODE_SYNC_STATS_END -->
 
 ## Problems
@@ -40,6 +40,7 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 | 586 | [Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) | Easy | Database | [approach](0586-customer-placing-the-largest-number-of-orders/README.md)&nbsp;·&nbsp;[code](0586-customer-placing-the-largest-number-of-orders/0586-customer-placing-the-largest-number-of-orders.sql) | 3 | Jul&nbsp;15,&nbsp;2026 |
 | 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | Easy | Database | [approach](0595-big-countries/README.md)&nbsp;·&nbsp;[code](0595-big-countries/0595-big-countries.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
 | 596 | [Classes With at Least 5 Students](https://leetcode.com/problems/classes-with-at-least-5-students/) | Easy | Database | [approach](0596-classes-with-at-least-5-students/README.md)&nbsp;·&nbsp;[code](0596-classes-with-at-least-5-students/0596-classes-with-at-least-5-students.sql) | 1 | Jul&nbsp;15,&nbsp;2026 |
+| 619 | [Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) | Easy | Database | [approach](0619-biggest-single-number/README.md)&nbsp;·&nbsp;[code](0619-biggest-single-number/0619-biggest-single-number.sql) | 1 | Jul&nbsp;15,&nbsp;2026 |
 | 620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | Easy | Database | [approach](0620-not-boring-movies/README.md)&nbsp;·&nbsp;[code](0620-not-boring-movies/0620-not-boring-movies.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
 | 1045 | [Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/) | Medium | Database | [approach](1045-customers-who-bought-all-products/README.md)&nbsp;·&nbsp;[code](1045-customers-who-bought-all-products/1045-customers-who-bought-all-products.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
 | 1517 | [Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/) | Easy | Database | [approach](1517-find-users-with-valid-e-mails/README.md)&nbsp;·&nbsp;[code](1517-find-users-with-valid-e-mails/1517-find-users-with-valid-e-mails.sql) | 8 | Jul&nbsp;11,&nbsp;2026 |
