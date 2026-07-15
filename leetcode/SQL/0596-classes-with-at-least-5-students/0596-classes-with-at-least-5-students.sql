@@ -3,4 +3,4 @@
 Select class
 from Courses
 Group by class
-having count(*) > 1
+having count(*) >= 5
