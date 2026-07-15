@@ -26,6 +26,8 @@ I want to get the total and approved transactions for each month and country, bu
 
 ![Time: O(n)](https://img.shields.io/badge/Time-O(n)-8250df?style=flat-square)
 ![Space: O(n)](https://img.shields.io/badge/Space-O(n)-d29922?style=flat-square)
+![Runtime: 639 ms (beats 34.0%)](https://img.shields.io/badge/Runtime-639%20ms%20(beats%2034.0%25)-2cbb5d?style=flat-square)
+![Memory: 0B (beats 100.0%)](https://img.shields.io/badge/Memory-0B%20(beats%20100.0%25)-2f81f7?style=flat-square)
 
 ```sql
 # Write your MySQL query statement below
@@ -37,7 +39,7 @@ sum(case when state ='approved' then 1 else 0 end) as approved_count,
 sum(amount) as trans_total_amount,
 sum(case when state ='approved' then amount else 0 end) as approved_total_amount
 from Transactions
-Group by month(trans_date),country;
+Group by DATE_FORMAT(trans_date, '%Y-%m'),country;
 ```
 
 Source: [1193-monthly-transactions-i.sql](./1193-monthly-transactions-i.sql)
