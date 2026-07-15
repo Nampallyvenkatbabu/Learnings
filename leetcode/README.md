@@ -5,27 +5,27 @@ Accepted [LeetCode](https://leetcode.com) solutions, each written up step by ste
 ## Progress
 
 <!-- LEETCODE_SYNC_STATS_START -->
-![Solved: 19](https://img.shields.io/badge/Solved-19-2cbb5d?style=flat-square)
-![Easy: 16](https://img.shields.io/badge/Easy-16-00b8a3?style=flat-square)
+![Solved: 20](https://img.shields.io/badge/Solved-20-2cbb5d?style=flat-square)
+![Easy: 17](https://img.shields.io/badge/Easy-17-00b8a3?style=flat-square)
 ![Medium: 3](https://img.shields.io/badge/Medium-3-ffc01e?style=flat-square)
 ![Hard: 0](https://img.shields.io/badge/Hard-0-ff375f?style=flat-square)
 ![Updated: Jul 15, 2026](https://img.shields.io/badge/Updated-Jul%2015%2C%202026-555555?style=flat-square)
 
-![Solved by difficulty](.assets/progress-16-3-0.svg)
+![Solved by difficulty](.assets/progress-17-3-0.svg)
 
 ### By language
 
 | Folder | Problems | Easy | Medium | Hard | Last updated |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | [Python](Python/README.md) | 1 | 1 | 0 | 0 | Jul&nbsp;10,&nbsp;2026 |
-| [SQL](SQL/README.md) | 18 | 15 | 3 | 0 | Jul&nbsp;15,&nbsp;2026 |
+| [SQL](SQL/README.md) | 19 | 16 | 3 | 0 | Jul&nbsp;15,&nbsp;2026 |
 
 <details>
 <summary><b>By topic</b> · 1 topic</summary>
 
 | Topic | Solved | Easy | Medium | Hard | Problems |
 |:--|:--:|:--:|:--:|:--:|:--|
-| **Database** | 19 | 16 | 3 | 0 | [175. Combine Two Tables](SQL/0175-combine-two-tables/README.md), [176. Second Highest Salary](SQL/0176-second-highest-salary/README.md), [177. Nth Highest Salary](SQL/0177-nth-highest-salary/README.md), [181. Employees Earning More Than Their Managers](SQL/0181-employees-earning-more-than-their-managers/README.md), [182. Duplicate Emails](SQL/0182-duplicate-emails/README.md), [183. Customers Who Never Order](SQL/0183-customers-who-never-order/README.md), [196. Delete Duplicate Emails](SQL/0196-delete-duplicate-emails/README.md), [197. Rising Temperature](SQL/0197-rising-temperature/README.md), [511. Game Play Analysis I](SQL/0511-game-play-analysis-i/README.md), [577. Employee Bonus](SQL/0577-employee-bonus/README.md), [584. Find Customer Referee](SQL/0584-find-customer-referee/README.md), [586. Customer Placing the Largest Number of Orders](SQL/0586-customer-placing-the-largest-number-of-orders/README.md), [595. Big Countries](Python/Pandas/0595-big-countries/README.md), [595. Big Countries](SQL/0595-big-countries/README.md), [620. Not Boring Movies](SQL/0620-not-boring-movies/README.md), [1045. Customers Who Bought All Products](SQL/1045-customers-who-bought-all-products/README.md), [1517. Find Users With Valid E-Mails](SQL/1517-find-users-with-valid-e-mails/README.md), [1527. Patients With a Condition](SQL/1527-patients-with-a-condition/README.md), [1873. Calculate Special Bonus](SQL/1873-calculate-special-bonus/README.md) |
+| **Database** | 20 | 17 | 3 | 0 | [175. Combine Two Tables](SQL/0175-combine-two-tables/README.md), [176. Second Highest Salary](SQL/0176-second-highest-salary/README.md), [177. Nth Highest Salary](SQL/0177-nth-highest-salary/README.md), [181. Employees Earning More Than Their Managers](SQL/0181-employees-earning-more-than-their-managers/README.md), [182. Duplicate Emails](SQL/0182-duplicate-emails/README.md), [183. Customers Who Never Order](SQL/0183-customers-who-never-order/README.md), [196. Delete Duplicate Emails](SQL/0196-delete-duplicate-emails/README.md), [197. Rising Temperature](SQL/0197-rising-temperature/README.md), [511. Game Play Analysis I](SQL/0511-game-play-analysis-i/README.md), [577. Employee Bonus](SQL/0577-employee-bonus/README.md), [584. Find Customer Referee](SQL/0584-find-customer-referee/README.md), [586. Customer Placing the Largest Number of Orders](SQL/0586-customer-placing-the-largest-number-of-orders/README.md), [595. Big Countries](Python/Pandas/0595-big-countries/README.md), [595. Big Countries](SQL/0595-big-countries/README.md), [596. Classes With at Least 5 Students](SQL/0596-classes-with-at-least-5-students/README.md), [620. Not Boring Movies](SQL/0620-not-boring-movies/README.md), [1045. Customers Who Bought All Products](SQL/1045-customers-who-bought-all-products/README.md), [1517. Find Users With Valid E-Mails](SQL/1517-find-users-with-valid-e-mails/README.md), [1527. Patients With a Condition](SQL/1527-patients-with-a-condition/README.md), [1873. Calculate Special Bonus](SQL/1873-calculate-special-bonus/README.md) |
 
 </details>
 <!-- LEETCODE_SYNC_STATS_END -->
@@ -34,7 +34,7 @@ Accepted [LeetCode](https://leetcode.com) solutions, each written up step by ste
 
 <!-- LEETCODE_SYNC_TABLE_START -->
 <details>
-<summary><b>All 19 problems</b></summary>
+<summary><b>All 20 problems</b></summary>
 
 | # | Problem | Difficulty | Topics | Language | Solution | Syncs | Updated |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -52,6 +52,7 @@ Accepted [LeetCode](https://leetcode.com) solutions, each written up step by ste
 | 586 | [Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) | Easy | Database | SQL | [approach](SQL/0586-customer-placing-the-largest-number-of-orders/README.md)&nbsp;·&nbsp;[code](SQL/0586-customer-placing-the-largest-number-of-orders/0586-customer-placing-the-largest-number-of-orders.sql) | 3 | Jul&nbsp;15,&nbsp;2026 |
 | 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | Easy | Database | Python · Pandas | [approach](Python/Pandas/0595-big-countries/README.md)&nbsp;·&nbsp;[code](Python/Pandas/0595-big-countries/0595-big-countries.py) | 1 | Jul&nbsp;10,&nbsp;2026 |
 | 595 | [Big Countries](https://leetcode.com/problems/big-countries/) | Easy | Database | SQL | [approach](SQL/0595-big-countries/README.md)&nbsp;·&nbsp;[code](SQL/0595-big-countries/0595-big-countries.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
+| 596 | [Classes With at Least 5 Students](https://leetcode.com/problems/classes-with-at-least-5-students/) | Easy | Database | SQL | [approach](SQL/0596-classes-with-at-least-5-students/README.md)&nbsp;·&nbsp;[code](SQL/0596-classes-with-at-least-5-students/0596-classes-with-at-least-5-students.sql) | 1 | Jul&nbsp;15,&nbsp;2026 |
 | 620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | Easy | Database | SQL | [approach](SQL/0620-not-boring-movies/README.md)&nbsp;·&nbsp;[code](SQL/0620-not-boring-movies/0620-not-boring-movies.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
 | 1045 | [Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/) | Medium | Database | SQL | [approach](SQL/1045-customers-who-bought-all-products/README.md)&nbsp;·&nbsp;[code](SQL/1045-customers-who-bought-all-products/1045-customers-who-bought-all-products.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
 | 1517 | [Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/) | Easy | Database | SQL | [approach](SQL/1517-find-users-with-valid-e-mails/README.md)&nbsp;·&nbsp;[code](SQL/1517-find-users-with-valid-e-mails/1517-find-users-with-valid-e-mails.sql) | 8 | Jul&nbsp;11,&nbsp;2026 |
