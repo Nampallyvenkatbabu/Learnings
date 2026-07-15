@@ -34,6 +34,8 @@ select customer_number
 from Orders
 Group by customer_number
 having count(*) > 1
+order by count(*)
+Limit 1
 ```
 
 Source: [0586-customer-placing-the-largest-number-of-orders.sql](./0586-customer-placing-the-largest-number-of-orders.sql)
