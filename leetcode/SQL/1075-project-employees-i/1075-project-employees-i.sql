@@ -1,7 +1,7 @@
 # Write your MySQL query statement below
 
 select p.project_id,
-avg(e.experience_years) as average_years
+Round(avg(e.experience_years),2) as average_years
 from
 Project p
 Inner join

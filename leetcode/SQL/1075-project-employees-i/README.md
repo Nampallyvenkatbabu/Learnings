@@ -26,12 +26,14 @@ I need to find the average experience years for each project, so I join the `Pro
 
 ![Time: O(n)](https://img.shields.io/badge/Time-O(n)-8250df?style=flat-square)
 ![Space: O(n)](https://img.shields.io/badge/Space-O(n)-d29922?style=flat-square)
+![Runtime: 488 ms (beats 94.4%)](https://img.shields.io/badge/Runtime-488%20ms%20(beats%2094.4%25)-2cbb5d?style=flat-square)
+![Memory: 0B (beats 100.0%)](https://img.shields.io/badge/Memory-0B%20(beats%20100.0%25)-2f81f7?style=flat-square)
 
 ```sql
 # Write your MySQL query statement below
 
 select p.project_id,
-avg(e.experience_years) as average_years
+Round(avg(e.experience_years),2) as average_years
 from
 Project p
 Inner join
