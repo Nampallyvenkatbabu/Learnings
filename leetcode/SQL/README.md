@@ -7,17 +7,17 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 ## Progress
 
 <!-- LEETCODE_SYNC_STATS_START -->
-![Solved: 26](https://img.shields.io/badge/Solved-26-2cbb5d?style=flat-square)
-![Easy: 22](https://img.shields.io/badge/Easy-22-00b8a3?style=flat-square)
+![Solved: 27](https://img.shields.io/badge/Solved-27-2cbb5d?style=flat-square)
+![Easy: 23](https://img.shields.io/badge/Easy-23-00b8a3?style=flat-square)
 ![Medium: 4](https://img.shields.io/badge/Medium-4-ffc01e?style=flat-square)
 ![Hard: 0](https://img.shields.io/badge/Hard-0-ff375f?style=flat-square)
-![Updated: Jul 16, 2026](https://img.shields.io/badge/Updated-Jul%2016%2C%202026-555555?style=flat-square)
+![Updated: Jul 17, 2026](https://img.shields.io/badge/Updated-Jul%2017%2C%202026-555555?style=flat-square)
 
-![Solved by difficulty](../.assets/progress-sql-22-4-0.svg)
+![Solved by difficulty](../.assets/progress-sql-23-4-0.svg)
 
 ### Topics covered
 
-![Database: 26](https://img.shields.io/badge/Database-26-30363d?style=flat-square)
+![Database: 27](https://img.shields.io/badge/Database-27-30363d?style=flat-square)
 <!-- LEETCODE_SYNC_STATS_END -->
 
 ## Problems
@@ -51,6 +51,7 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 | 1517 | [Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/) | Easy | Database | [approach](1517-find-users-with-valid-e-mails/README.md)&nbsp;·&nbsp;[code](1517-find-users-with-valid-e-mails/1517-find-users-with-valid-e-mails.sql) | 8 | Jul&nbsp;11,&nbsp;2026 |
 | 1527 | [Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | Easy | Database | [approach](1527-patients-with-a-condition/README.md)&nbsp;·&nbsp;[code](1527-patients-with-a-condition/1527-patients-with-a-condition.sql) | 2 | Jul&nbsp;12,&nbsp;2026 |
 | 1587 | [Bank Account Summary II](https://leetcode.com/problems/bank-account-summary-ii/) | Easy | Database | [approach](1587-bank-account-summary-ii/README.md)&nbsp;·&nbsp;[code](1587-bank-account-summary-ii/1587-bank-account-summary-ii.sql) | 1 | Jul&nbsp;16,&nbsp;2026 |
+| 1633 | [Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/) | Easy | Database | [approach](1633-percentage-of-users-attended-a-contest/README.md)&nbsp;·&nbsp;[code](1633-percentage-of-users-attended-a-contest/1633-percentage-of-users-attended-a-contest.sql) | 1 | Jul&nbsp;17,&nbsp;2026 |
 | 1873 | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/) | Easy | Database | [approach](1873-calculate-special-bonus/README.md)&nbsp;·&nbsp;[code](1873-calculate-special-bonus/1873-calculate-special-bonus.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
 
 <sub><b>Syncs</b> = accepted pushes for that problem, so a re-solve bumps it.</sub>
