@@ -27,6 +27,8 @@ I need to find the average selling price for each product by matching sales with
 
 ![Time: O(n)](https://img.shields.io/badge/Time-O(n)-8250df?style=flat-square)
 ![Space: O(n)](https://img.shields.io/badge/Space-O(n)-d29922?style=flat-square)
+![Runtime: 994 ms (beats 16.9%)](https://img.shields.io/badge/Runtime-994%20ms%20(beats%2016.9%25)-2cbb5d?style=flat-square)
+![Memory: 0B (beats 100.0%)](https://img.shields.io/badge/Memory-0B%20(beats%20100.0%25)-2f81f7?style=flat-square)
 
 ```sql
 # Write your MySQL query statement below
@@ -34,7 +36,7 @@ I need to find the average selling price for each product by matching sales with
 select p.product_id,
 IFNULL(Round((sum(price * units)/sum(units)),2),0) as average_price 
 FROM Prices p
-Inner join
+Left join
 UnitsSold u
 on p.product_id = u.product_id and 
 u.purchase_date BETWEEN p.Start_date and p.end_date
