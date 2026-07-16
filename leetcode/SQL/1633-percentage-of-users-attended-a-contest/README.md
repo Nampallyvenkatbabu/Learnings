@@ -26,6 +26,8 @@ I need to find what percentage of users signed up for each contest, so I count t
 
 ![Time: O(n)](https://img.shields.io/badge/Time-O(n)-8250df?style=flat-square)
 ![Space: O(n)](https://img.shields.io/badge/Space-O(n)-d29922?style=flat-square)
+![Runtime: 1188 ms (beats 15.9%)](https://img.shields.io/badge/Runtime-1188%20ms%20(beats%2015.9%25)-2cbb5d?style=flat-square)
+![Memory: 0B (beats 100.0%)](https://img.shields.io/badge/Memory-0B%20(beats%20100.0%25)-2f81f7?style=flat-square)
 
 ```sql
 # Write your MySQL query statement below
@@ -34,7 +36,7 @@ select contest_id,
 Round(count(distinct user_id)/(select count(user_id) from Users) * 100.0,2) as percentage 
 from Register
 Group by contest_id
-order by percentage desc
+order by percentage desc,contest_id asc
 ```
 
 Source: [1633-percentage-of-users-attended-a-contest.sql](./1633-percentage-of-users-attended-a-contest.sql)
