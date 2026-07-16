@@ -7,17 +7,17 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 ## Progress
 
 <!-- LEETCODE_SYNC_STATS_START -->
-![Solved: 24](https://img.shields.io/badge/Solved-24-2cbb5d?style=flat-square)
-![Easy: 20](https://img.shields.io/badge/Easy-20-00b8a3?style=flat-square)
+![Solved: 25](https://img.shields.io/badge/Solved-25-2cbb5d?style=flat-square)
+![Easy: 21](https://img.shields.io/badge/Easy-21-00b8a3?style=flat-square)
 ![Medium: 4](https://img.shields.io/badge/Medium-4-ffc01e?style=flat-square)
 ![Hard: 0](https://img.shields.io/badge/Hard-0-ff375f?style=flat-square)
-![Updated: Jul 15, 2026](https://img.shields.io/badge/Updated-Jul%2015%2C%202026-555555?style=flat-square)
+![Updated: Jul 16, 2026](https://img.shields.io/badge/Updated-Jul%2016%2C%202026-555555?style=flat-square)
 
-![Solved by difficulty](../.assets/progress-sql-20-4-0.svg)
+![Solved by difficulty](../.assets/progress-sql-21-4-0.svg)
 
 ### Topics covered
 
-![Database: 24](https://img.shields.io/badge/Database-24-30363d?style=flat-square)
+![Database: 25](https://img.shields.io/badge/Database-25-30363d?style=flat-square)
 <!-- LEETCODE_SYNC_STATS_END -->
 
 ## Problems
@@ -47,6 +47,7 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 | 1075 | [Project Employees I](https://leetcode.com/problems/project-employees-i/) | Easy | Database | [approach](1075-project-employees-i/README.md)&nbsp;·&nbsp;[code](1075-project-employees-i/1075-project-employees-i.sql) | 1 | Jul&nbsp;15,&nbsp;2026 |
 | 1193 | [Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/) | Medium | Database | [approach](1193-monthly-transactions-i/README.md)&nbsp;·&nbsp;[code](1193-monthly-transactions-i/1193-monthly-transactions-i.sql) | 2 | Jul&nbsp;15,&nbsp;2026 |
 | 1211 | [Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage/) | Easy | Database | [approach](1211-queries-quality-and-percentage/README.md)&nbsp;·&nbsp;[code](1211-queries-quality-and-percentage/1211-queries-quality-and-percentage.sql) | 1 | Jul&nbsp;15,&nbsp;2026 |
+| 1251 | [Average Selling Price](https://leetcode.com/problems/average-selling-price/) | Easy | Database | [approach](1251-average-selling-price/README.md)&nbsp;·&nbsp;[code](1251-average-selling-price/1251-average-selling-price.sql) | 1 | Jul&nbsp;16,&nbsp;2026 |
 | 1517 | [Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/) | Easy | Database | [approach](1517-find-users-with-valid-e-mails/README.md)&nbsp;·&nbsp;[code](1517-find-users-with-valid-e-mails/1517-find-users-with-valid-e-mails.sql) | 8 | Jul&nbsp;11,&nbsp;2026 |
 | 1527 | [Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | Easy | Database | [approach](1527-patients-with-a-condition/README.md)&nbsp;·&nbsp;[code](1527-patients-with-a-condition/1527-patients-with-a-condition.sql) | 2 | Jul&nbsp;12,&nbsp;2026 |
 | 1873 | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/) | Easy | Database | [approach](1873-calculate-special-bonus/README.md)&nbsp;·&nbsp;[code](1873-calculate-special-bonus/1873-calculate-special-bonus.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
