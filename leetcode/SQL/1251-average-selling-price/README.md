@@ -32,7 +32,7 @@ I need to find the average selling price for each product by matching sales with
 # Write your MySQL query statement below
 
 select p.product_id,
-Round((sum(price * units)/sum(units)),2) as average_price 
+IFNULL(Round((sum(price * units)/sum(units)),2),0) as average_price 
 FROM Prices p
 Inner join
 UnitsSold u
