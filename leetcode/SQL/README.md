@@ -7,17 +7,17 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 ## Progress
 
 <!-- LEETCODE_SYNC_STATS_START -->
-![Solved: 34](https://img.shields.io/badge/Solved-34-2cbb5d?style=flat-square)
-![Easy: 29](https://img.shields.io/badge/Easy-29-00b8a3?style=flat-square)
+![Solved: 35](https://img.shields.io/badge/Solved-35-2cbb5d?style=flat-square)
+![Easy: 30](https://img.shields.io/badge/Easy-30-00b8a3?style=flat-square)
 ![Medium: 5](https://img.shields.io/badge/Medium-5-ffc01e?style=flat-square)
 ![Hard: 0](https://img.shields.io/badge/Hard-0-ff375f?style=flat-square)
 ![Updated: Jul 17, 2026](https://img.shields.io/badge/Updated-Jul%2017%2C%202026-555555?style=flat-square)
 
-![Solved by difficulty](../.assets/progress-sql-29-5-0.svg)
+![Solved by difficulty](../.assets/progress-sql-30-5-0.svg)
 
 ### Topics covered
 
-![Database: 34](https://img.shields.io/badge/Database-34-30363d?style=flat-square)
+![Database: 35](https://img.shields.io/badge/Database-35-30363d?style=flat-square)
 <!-- LEETCODE_SYNC_STATS_END -->
 
 ## Problems
@@ -51,6 +51,7 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 | 1084 | [Sales Analysis III](https://leetcode.com/problems/sales-analysis-iii/) | Easy | Database | [approach](1084-sales-analysis-iii/README.md)&nbsp;·&nbsp;[code](1084-sales-analysis-iii/1084-sales-analysis-iii.sql) | 1 | Jul&nbsp;17,&nbsp;2026 |
 | 1141 | [User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) | Easy | Database | [approach](1141-user-activity-for-the-past-30-days-i/README.md)&nbsp;·&nbsp;[code](1141-user-activity-for-the-past-30-days-i/1141-user-activity-for-the-past-30-days-i.sql) | 1 | Jul&nbsp;17,&nbsp;2026 |
 | 1174 | [Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/) | Medium | Database | [approach](1174-immediate-food-delivery-ii/README.md)&nbsp;·&nbsp;[code](1174-immediate-food-delivery-ii/1174-immediate-food-delivery-ii.sql) | 1 | Jul&nbsp;17,&nbsp;2026 |
+| 1179 | [Reformat Department Table](https://leetcode.com/problems/reformat-department-table/) | Easy | Database | [approach](1179-reformat-department-table/README.md)&nbsp;·&nbsp;[code](1179-reformat-department-table/1179-reformat-department-table.sql) | 1 | Jul&nbsp;17,&nbsp;2026 |
 | 1193 | [Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/) | Medium | Database | [approach](1193-monthly-transactions-i/README.md)&nbsp;·&nbsp;[code](1193-monthly-transactions-i/1193-monthly-transactions-i.sql) | 2 | Jul&nbsp;15,&nbsp;2026 |
 | 1211 | [Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage/) | Easy | Database | [approach](1211-queries-quality-and-percentage/README.md)&nbsp;·&nbsp;[code](1211-queries-quality-and-percentage/1211-queries-quality-and-percentage.sql) | 1 | Jul&nbsp;15,&nbsp;2026 |
 | 1251 | [Average Selling Price](https://leetcode.com/problems/average-selling-price/) | Easy | Database | [approach](1251-average-selling-price/README.md)&nbsp;·&nbsp;[code](1251-average-selling-price/1251-average-selling-price.sql) | 4 | Jul&nbsp;16,&nbsp;2026 |
