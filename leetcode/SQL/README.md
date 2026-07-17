@@ -7,17 +7,17 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 ## Progress
 
 <!-- LEETCODE_SYNC_STATS_START -->
-![Solved: 32](https://img.shields.io/badge/Solved-32-2cbb5d?style=flat-square)
-![Easy: 28](https://img.shields.io/badge/Easy-28-00b8a3?style=flat-square)
+![Solved: 33](https://img.shields.io/badge/Solved-33-2cbb5d?style=flat-square)
+![Easy: 29](https://img.shields.io/badge/Easy-29-00b8a3?style=flat-square)
 ![Medium: 4](https://img.shields.io/badge/Medium-4-ffc01e?style=flat-square)
 ![Hard: 0](https://img.shields.io/badge/Hard-0-ff375f?style=flat-square)
 ![Updated: Jul 17, 2026](https://img.shields.io/badge/Updated-Jul%2017%2C%202026-555555?style=flat-square)
 
-![Solved by difficulty](../.assets/progress-sql-28-4-0.svg)
+![Solved by difficulty](../.assets/progress-sql-29-4-0.svg)
 
 ### Topics covered
 
-![Database: 32](https://img.shields.io/badge/Database-32-30363d?style=flat-square)
+![Database: 33](https://img.shields.io/badge/Database-33-30363d?style=flat-square)
 <!-- LEETCODE_SYNC_STATS_END -->
 
 ## Problems
@@ -49,6 +49,7 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 | 1050 | [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | Easy | Database | [approach](1050-actors-and-directors-who-cooperated-at-least-three-times/README.md)&nbsp;·&nbsp;[code](1050-actors-and-directors-who-cooperated-at-least-three-times/1050-actors-and-directors-who-cooperated-at-least-three-times.sql) | 1 | Jul&nbsp;15,&nbsp;2026 |
 | 1075 | [Project Employees I](https://leetcode.com/problems/project-employees-i/) | Easy | Database | [approach](1075-project-employees-i/README.md)&nbsp;·&nbsp;[code](1075-project-employees-i/1075-project-employees-i.sql) | 1 | Jul&nbsp;15,&nbsp;2026 |
 | 1084 | [Sales Analysis III](https://leetcode.com/problems/sales-analysis-iii/) | Easy | Database | [approach](1084-sales-analysis-iii/README.md)&nbsp;·&nbsp;[code](1084-sales-analysis-iii/1084-sales-analysis-iii.sql) | 1 | Jul&nbsp;17,&nbsp;2026 |
+| 1141 | [User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) | Easy | Database | [approach](1141-user-activity-for-the-past-30-days-i/README.md)&nbsp;·&nbsp;[code](1141-user-activity-for-the-past-30-days-i/1141-user-activity-for-the-past-30-days-i.sql) | 1 | Jul&nbsp;17,&nbsp;2026 |
 | 1193 | [Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/) | Medium | Database | [approach](1193-monthly-transactions-i/README.md)&nbsp;·&nbsp;[code](1193-monthly-transactions-i/1193-monthly-transactions-i.sql) | 2 | Jul&nbsp;15,&nbsp;2026 |
 | 1211 | [Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage/) | Easy | Database | [approach](1211-queries-quality-and-percentage/README.md)&nbsp;·&nbsp;[code](1211-queries-quality-and-percentage/1211-queries-quality-and-percentage.sql) | 1 | Jul&nbsp;15,&nbsp;2026 |
 | 1251 | [Average Selling Price](https://leetcode.com/problems/average-selling-price/) | Easy | Database | [approach](1251-average-selling-price/README.md)&nbsp;·&nbsp;[code](1251-average-selling-price/1251-average-selling-price.sql) | 4 | Jul&nbsp;16,&nbsp;2026 |
