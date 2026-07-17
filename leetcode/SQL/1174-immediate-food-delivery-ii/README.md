@@ -9,19 +9,19 @@
 
 ## How I approached it
 
-I need to find the percentage of immediate orders in the first orders of all customers. My first idea was to count all orders, but that does not work because I only care about the first order per customer, and I need to compare `order_date` and `customer_pref_delivery_date` to decide if an order is immediate. I use a subquery to find the first order for each customer.
+I need to find the percentage of immediate orders in the first orders of all customers. My first idea was to compare `order_date` and `customer_pref_delivery_date` directly, but I also need to make sure I'm only looking at the first order for each customer. I can use a subquery to find the first order for each customer and then compare the dates.
 
-**How I got there:** I noticed that the first order for a customer is the one with the earliest `order_date`, so I used `min(order_date)` to find that. Then I compared `order_date` and `customer_pref_delivery_date` to see if an order is immediate.
+**How I got there:** I noticed that I need to find the first order for each customer, which means I need to find the order with the earliest `order_date` for each `customer_id`. I can use a subquery with `min(order_date)` and `group by customer_id` to find these first orders. Then I can compare `order_date` and `customer_pref_delivery_date` to find the immediate orders.
 
-1. Find the first order for each customer by selecting the minimum `order_date` per `customer_id`.
-2. Use the result of the subquery to filter the `Delivery` table and only keep the first order for each customer.
-3. Compare `order_date` and `customer_pref_delivery_date` for each of these first orders to decide if the order is immediate.
-4. Calculate the average of these immediate orders, treating each immediate order as 1 and each scheduled order as 0.
-5. Multiply this average by 100 to convert it to a percentage and round to 2 decimal places.
+1. Find the first order for each customer by selecting the `customer_id` and the minimum `order_date` and grouping by `customer_id`.
+2. Use this subquery to filter the `Delivery` table and only include the first order for each customer.
+3. Compare `order_date` and `customer_pref_delivery_date` for each of these first orders to find the immediate orders.
+4. Use `avg` to calculate the percentage of immediate orders, and multiply by 100.0 to convert to a percentage.
+5. Use `Round` to round the result to 2 decimal places.
 
-**Pattern to remember:** When I need to find a percentage based on some condition, I can use `avg` with a boolean expression that treats true as 1 and false as 0.
+**Pattern to remember:** When I need to find a percentage based on a condition, I can use `avg` with a boolean expression that evaluates to 1 or 0.
 
-**Watch out for:** If I forget to filter for the first order per customer, I will count some customers multiple times.
+**Watch out for:** If I forget to filter the orders to only include the first order for each customer, I will get incorrect results.
 
 ## Solution
 
