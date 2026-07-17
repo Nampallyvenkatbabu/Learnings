@@ -25,6 +25,8 @@ I count active users per day by grouping the `Activity` table by `activity_date`
 
 ![Time: O(n)](https://img.shields.io/badge/Time-O(n)-8250df?style=flat-square)
 ![Space: O(n)](https://img.shields.io/badge/Space-O(n)-d29922?style=flat-square)
+![Runtime: 661 ms (beats 9.4%)](https://img.shields.io/badge/Runtime-661%20ms%20(beats%209.4%25)-2cbb5d?style=flat-square)
+![Memory: 0B (beats 100.0%)](https://img.shields.io/badge/Memory-0B%20(beats%20100.0%25)-2f81f7?style=flat-square)
 
 ```sql
 # Write your MySQL query statement below
@@ -33,7 +35,7 @@ select activity_date as day,
 count(distinct user_id) as active_users
 from Activity
 Group by activity_date
-having activity_date between '2019-06-27' and '2019-07-27'
+having activity_date between '2019-06-28' and '2019-07-27'
 ```
 
 Source: [1141-user-activity-for-the-past-30-days-i.sql](./1141-user-activity-for-the-past-30-days-i.sql)
