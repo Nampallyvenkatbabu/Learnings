@@ -7,17 +7,17 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 ## Progress
 
 <!-- LEETCODE_SYNC_STATS_START -->
-![Solved: 30](https://img.shields.io/badge/Solved-30-2cbb5d?style=flat-square)
-![Easy: 26](https://img.shields.io/badge/Easy-26-00b8a3?style=flat-square)
+![Solved: 31](https://img.shields.io/badge/Solved-31-2cbb5d?style=flat-square)
+![Easy: 27](https://img.shields.io/badge/Easy-27-00b8a3?style=flat-square)
 ![Medium: 4](https://img.shields.io/badge/Medium-4-ffc01e?style=flat-square)
 ![Hard: 0](https://img.shields.io/badge/Hard-0-ff375f?style=flat-square)
 ![Updated: Jul 17, 2026](https://img.shields.io/badge/Updated-Jul%2017%2C%202026-555555?style=flat-square)
 
-![Solved by difficulty](../.assets/progress-sql-26-4-0.svg)
+![Solved by difficulty](../.assets/progress-sql-27-4-0.svg)
 
 ### Topics covered
 
-![Database: 30](https://img.shields.io/badge/Database-30-30363d?style=flat-square)
+![Database: 31](https://img.shields.io/badge/Database-31-30363d?style=flat-square)
 <!-- LEETCODE_SYNC_STATS_END -->
 
 ## Problems
@@ -44,6 +44,7 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 | 610 | [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) | Easy | Database | [approach](0610-triangle-judgement/README.md)&nbsp;·&nbsp;[code](0610-triangle-judgement/0610-triangle-judgement.sql) | 2 | Jul&nbsp;17,&nbsp;2026 |
 | 619 | [Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) | Easy | Database | [approach](0619-biggest-single-number/README.md)&nbsp;·&nbsp;[code](0619-biggest-single-number/0619-biggest-single-number.sql) | 1 | Jul&nbsp;15,&nbsp;2026 |
 | 620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | Easy | Database | [approach](0620-not-boring-movies/README.md)&nbsp;·&nbsp;[code](0620-not-boring-movies/0620-not-boring-movies.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
+| 627 | [Swap Sex of Employees](https://leetcode.com/problems/swap-sex-of-employees/) | Easy | Database | [approach](0627-swap-sex-of-employees/README.md)&nbsp;·&nbsp;[code](0627-swap-sex-of-employees/0627-swap-sex-of-employees.sql) | 1 | Jul&nbsp;17,&nbsp;2026 |
 | 1045 | [Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/) | Medium | Database | [approach](1045-customers-who-bought-all-products/README.md)&nbsp;·&nbsp;[code](1045-customers-who-bought-all-products/1045-customers-who-bought-all-products.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
 | 1050 | [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | Easy | Database | [approach](1050-actors-and-directors-who-cooperated-at-least-three-times/README.md)&nbsp;·&nbsp;[code](1050-actors-and-directors-who-cooperated-at-least-three-times/1050-actors-and-directors-who-cooperated-at-least-three-times.sql) | 1 | Jul&nbsp;15,&nbsp;2026 |
 | 1075 | [Project Employees I](https://leetcode.com/problems/project-employees-i/) | Easy | Database | [approach](1075-project-employees-i/README.md)&nbsp;·&nbsp;[code](1075-project-employees-i/1075-project-employees-i.sql) | 1 | Jul&nbsp;15,&nbsp;2026 |

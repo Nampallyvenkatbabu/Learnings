@@ -5,27 +5,27 @@ Accepted [LeetCode](https://leetcode.com) solutions, each written up step by ste
 ## Progress
 
 <!-- LEETCODE_SYNC_STATS_START -->
-![Solved: 31](https://img.shields.io/badge/Solved-31-2cbb5d?style=flat-square)
-![Easy: 27](https://img.shields.io/badge/Easy-27-00b8a3?style=flat-square)
+![Solved: 32](https://img.shields.io/badge/Solved-32-2cbb5d?style=flat-square)
+![Easy: 28](https://img.shields.io/badge/Easy-28-00b8a3?style=flat-square)
 ![Medium: 4](https://img.shields.io/badge/Medium-4-ffc01e?style=flat-square)
 ![Hard: 0](https://img.shields.io/badge/Hard-0-ff375f?style=flat-square)
 ![Updated: Jul 17, 2026](https://img.shields.io/badge/Updated-Jul%2017%2C%202026-555555?style=flat-square)
 
-![Solved by difficulty](.assets/progress-27-4-0.svg)
+![Solved by difficulty](.assets/progress-28-4-0.svg)
 
 ### By language
 
 | Folder | Problems | Easy | Medium | Hard | Last updated |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | [Python](Python/README.md) | 1 | 1 | 0 | 0 | Jul&nbsp;10,&nbsp;2026 |
-| [SQL](SQL/README.md) | 30 | 26 | 4 | 0 | Jul&nbsp;17,&nbsp;2026 |
+| [SQL](SQL/README.md) | 31 | 27 | 4 | 0 | Jul&nbsp;17,&nbsp;2026 |
 
 <details>
 <summary><b>By topic</b> · 1 topic</summary>
 
 | Topic | Solved | Easy | Medium | Hard | Problems |
 |:--|:--:|:--:|:--:|:--:|:--|
-| **Database** | 31 | 27 | 4 | 0 | [175. Combine Two Tables](SQL/0175-combine-two-tables/README.md), [176. Second Highest Salary](SQL/0176-second-highest-salary/README.md), [177. Nth Highest Salary](SQL/0177-nth-highest-salary/README.md), [181. Employees Earning More Than Their Managers](SQL/0181-employees-earning-more-than-their-managers/README.md), [182. Duplicate Emails](SQL/0182-duplicate-emails/README.md), [183. Customers Who Never Order](SQL/0183-customers-who-never-order/README.md), [196. Delete Duplicate Emails](SQL/0196-delete-duplicate-emails/README.md), [197. Rising Temperature](SQL/0197-rising-temperature/README.md), [511. Game Play Analysis I](SQL/0511-game-play-analysis-i/README.md), [577. Employee Bonus](SQL/0577-employee-bonus/README.md), [584. Find Customer Referee](SQL/0584-find-customer-referee/README.md), [586. Customer Placing the Largest Number of Orders](SQL/0586-customer-placing-the-largest-number-of-orders/README.md), [595. Big Countries](Python/Pandas/0595-big-countries/README.md), [595. Big Countries](SQL/0595-big-countries/README.md), [596. Classes With at Least 5 Students](SQL/0596-classes-with-at-least-5-students/README.md), [607. Sales Person](SQL/0607-sales-person/README.md), [610. Triangle Judgement](SQL/0610-triangle-judgement/README.md), [619. Biggest Single Number](SQL/0619-biggest-single-number/README.md), [620. Not Boring Movies](SQL/0620-not-boring-movies/README.md), [1045. Customers Who Bought All Products](SQL/1045-customers-who-bought-all-products/README.md), [1050. Actors and Directors Who Cooperated At Least Three Times](SQL/1050-actors-and-directors-who-cooperated-at-least-three-times/README.md), [1075. Project Employees I](SQL/1075-project-employees-i/README.md), [1193. Monthly Transactions I](SQL/1193-monthly-transactions-i/README.md), [1211. Queries Quality and Percentage](SQL/1211-queries-quality-and-percentage/README.md), [1251. Average Selling Price](SQL/1251-average-selling-price/README.md), [1517. Find Users With Valid E-Mails](SQL/1517-find-users-with-valid-e-mails/README.md), [1527. Patients With a Condition](SQL/1527-patients-with-a-condition/README.md), [1587. Bank Account Summary II](SQL/1587-bank-account-summary-ii/README.md), [1633. Percentage of Users Attended a Contest](SQL/1633-percentage-of-users-attended-a-contest/README.md), [1693. Daily Leads and Partners](SQL/1693-daily-leads-and-partners/README.md), [1873. Calculate Special Bonus](SQL/1873-calculate-special-bonus/README.md) |
+| **Database** | 32 | 28 | 4 | 0 | [175. Combine Two Tables](SQL/0175-combine-two-tables/README.md), [176. Second Highest Salary](SQL/0176-second-highest-salary/README.md), [177. Nth Highest Salary](SQL/0177-nth-highest-salary/README.md), [181. Employees Earning More Than Their Managers](SQL/0181-employees-earning-more-than-their-managers/README.md), [182. Duplicate Emails](SQL/0182-duplicate-emails/README.md), [183. Customers Who Never Order](SQL/0183-customers-who-never-order/README.md), [196. Delete Duplicate Emails](SQL/0196-delete-duplicate-emails/README.md), [197. Rising Temperature](SQL/0197-rising-temperature/README.md), [511. Game Play Analysis I](SQL/0511-game-play-analysis-i/README.md), [577. Employee Bonus](SQL/0577-employee-bonus/README.md), [584. Find Customer Referee](SQL/0584-find-customer-referee/README.md), [586. Customer Placing the Largest Number of Orders](SQL/0586-customer-placing-the-largest-number-of-orders/README.md), [595. Big Countries](Python/Pandas/0595-big-countries/README.md), [595. Big Countries](SQL/0595-big-countries/README.md), [596. Classes With at Least 5 Students](SQL/0596-classes-with-at-least-5-students/README.md), [607. Sales Person](SQL/0607-sales-person/README.md), [610. Triangle Judgement](SQL/0610-triangle-judgement/README.md), [619. Biggest Single Number](SQL/0619-biggest-single-number/README.md), [620. Not Boring Movies](SQL/0620-not-boring-movies/README.md), [627. Swap Sex of Employees](SQL/0627-swap-sex-of-employees/README.md), [1045. Customers Who Bought All Products](SQL/1045-customers-who-bought-all-products/README.md), [1050. Actors and Directors Who Cooperated At Least Three Times](SQL/1050-actors-and-directors-who-cooperated-at-least-three-times/README.md), [1075. Project Employees I](SQL/1075-project-employees-i/README.md), [1193. Monthly Transactions I](SQL/1193-monthly-transactions-i/README.md), [1211. Queries Quality and Percentage](SQL/1211-queries-quality-and-percentage/README.md), [1251. Average Selling Price](SQL/1251-average-selling-price/README.md), [1517. Find Users With Valid E-Mails](SQL/1517-find-users-with-valid-e-mails/README.md), [1527. Patients With a Condition](SQL/1527-patients-with-a-condition/README.md), [1587. Bank Account Summary II](SQL/1587-bank-account-summary-ii/README.md), [1633. Percentage of Users Attended a Contest](SQL/1633-percentage-of-users-attended-a-contest/README.md), [1693. Daily Leads and Partners](SQL/1693-daily-leads-and-partners/README.md), [1873. Calculate Special Bonus](SQL/1873-calculate-special-bonus/README.md) |
 
 </details>
 <!-- LEETCODE_SYNC_STATS_END -->
@@ -34,7 +34,7 @@ Accepted [LeetCode](https://leetcode.com) solutions, each written up step by ste
 
 <!-- LEETCODE_SYNC_TABLE_START -->
 <details>
-<summary><b>All 31 problems</b></summary>
+<summary><b>All 32 problems</b></summary>
 
 | # | Problem | Difficulty | Topics | Language | Solution | Syncs | Updated |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -57,6 +57,7 @@ Accepted [LeetCode](https://leetcode.com) solutions, each written up step by ste
 | 610 | [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) | Easy | Database | SQL | [approach](SQL/0610-triangle-judgement/README.md)&nbsp;·&nbsp;[code](SQL/0610-triangle-judgement/0610-triangle-judgement.sql) | 2 | Jul&nbsp;17,&nbsp;2026 |
 | 619 | [Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) | Easy | Database | SQL | [approach](SQL/0619-biggest-single-number/README.md)&nbsp;·&nbsp;[code](SQL/0619-biggest-single-number/0619-biggest-single-number.sql) | 1 | Jul&nbsp;15,&nbsp;2026 |
 | 620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | Easy | Database | SQL | [approach](SQL/0620-not-boring-movies/README.md)&nbsp;·&nbsp;[code](SQL/0620-not-boring-movies/0620-not-boring-movies.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
+| 627 | [Swap Sex of Employees](https://leetcode.com/problems/swap-sex-of-employees/) | Easy | Database | SQL | [approach](SQL/0627-swap-sex-of-employees/README.md)&nbsp;·&nbsp;[code](SQL/0627-swap-sex-of-employees/0627-swap-sex-of-employees.sql) | 1 | Jul&nbsp;17,&nbsp;2026 |
 | 1045 | [Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/) | Medium | Database | SQL | [approach](SQL/1045-customers-who-bought-all-products/README.md)&nbsp;·&nbsp;[code](SQL/1045-customers-who-bought-all-products/1045-customers-who-bought-all-products.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
 | 1050 | [Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/) | Easy | Database | SQL | [approach](SQL/1050-actors-and-directors-who-cooperated-at-least-three-times/README.md)&nbsp;·&nbsp;[code](SQL/1050-actors-and-directors-who-cooperated-at-least-three-times/1050-actors-and-directors-who-cooperated-at-least-three-times.sql) | 1 | Jul&nbsp;15,&nbsp;2026 |
 | 1075 | [Project Employees I](https://leetcode.com/problems/project-employees-i/) | Easy | Database | SQL | [approach](SQL/1075-project-employees-i/README.md)&nbsp;·&nbsp;[code](SQL/1075-project-employees-i/1075-project-employees-i.sql) | 1 | Jul&nbsp;15,&nbsp;2026 |
