@@ -25,13 +25,17 @@ I check if the sum of the two shorter sides is longer than the longest side, whi
 
 ![Time: O(n)](https://img.shields.io/badge/Time-O(n)-8250df?style=flat-square)
 ![Space: O(n)](https://img.shields.io/badge/Space-O(n)-d29922?style=flat-square)
+![Runtime: 287 ms (beats 80.6%)](https://img.shields.io/badge/Runtime-287%20ms%20(beats%2080.6%25)-2cbb5d?style=flat-square)
+![Memory: 0B (beats 100.0%)](https://img.shields.io/badge/Memory-0B%20(beats%20100.0%25)-2f81f7?style=flat-square)
 
 ```sql
 # Write your MySQL query statement below
 
 select x,y,z,
 CASE
-    when x+y <=z then 'No' else 'Yes'
+    when x+y > z
+    and y+z > x
+    and z+x > y then 'Yes' else 'No'
 END as triangle
 from Triangle
 ```
