@@ -26,19 +26,21 @@ I need to calculate the total gain or loss for each stock, which is the sum of t
 
 ![Time: O(n)](https://img.shields.io/badge/Time-O(n)-8250df?style=flat-square)
 ![Space: O(n)](https://img.shields.io/badge/Space-O(n)-d29922?style=flat-square)
-![Runtime: 496 ms (beats 86.4%)](https://img.shields.io/badge/Runtime-496%20ms%20(beats%2086.4%25)-2cbb5d?style=flat-square)
+![Runtime: 587 ms (beats 22.0%)](https://img.shields.io/badge/Runtime-587%20ms%20(beats%2022.0%25)-2cbb5d?style=flat-square)
 ![Memory: 0B (beats 100.0%)](https://img.shields.io/badge/Memory-0B%20(beats%20100.0%25)-2f81f7?style=flat-square)
 
 ```sql
 # Write your MySQL query statement below
 
-select stock_name, sum(updated_price) as capital_gain_loss
-from
-(select *,
-case when operation = 'Sell' then price 
-else -price end as updated_price
-from Stocks)t
-Group by stock_name
+SELECT stock_name,
+       SUM(
+           CASE
+               WHEN operation = 'Buy' THEN -price
+               ELSE price
+           END
+       ) AS capital_gain_loss
+FROM Stocks
+GROUP BY stock_name;
 ```
 
 Source: [1393-capital-gainloss.sql](./1393-capital-gainloss.sql)
