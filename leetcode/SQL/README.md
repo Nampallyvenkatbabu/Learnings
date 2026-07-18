@@ -7,17 +7,17 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 ## Progress
 
 <!-- LEETCODE_SYNC_STATS_START -->
-![Solved: 37](https://img.shields.io/badge/Solved-37-2cbb5d?style=flat-square)
-![Easy: 31](https://img.shields.io/badge/Easy-31-00b8a3?style=flat-square)
+![Solved: 38](https://img.shields.io/badge/Solved-38-2cbb5d?style=flat-square)
+![Easy: 32](https://img.shields.io/badge/Easy-32-00b8a3?style=flat-square)
 ![Medium: 6](https://img.shields.io/badge/Medium-6-ffc01e?style=flat-square)
 ![Hard: 0](https://img.shields.io/badge/Hard-0-ff375f?style=flat-square)
-![Updated: Jul 18, 2026](https://img.shields.io/badge/Updated-Jul%2018%2C%202026-555555?style=flat-square)
+![Updated: Jul 19, 2026](https://img.shields.io/badge/Updated-Jul%2019%2C%202026-555555?style=flat-square)
 
-![Solved by difficulty](../.assets/progress-sql-31-6-0.svg)
+![Solved by difficulty](../.assets/progress-sql-32-6-0.svg)
 
 ### Topics covered
 
-![Database: 37](https://img.shields.io/badge/Database-37-30363d?style=flat-square)
+![Database: 38](https://img.shields.io/badge/Database-38-30363d?style=flat-square)
 <!-- LEETCODE_SYNC_STATS_END -->
 
 ## Problems
@@ -62,6 +62,7 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 | 1633 | [Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/) | Easy | Database | [approach](1633-percentage-of-users-attended-a-contest/README.md)&nbsp;·&nbsp;[code](1633-percentage-of-users-attended-a-contest/1633-percentage-of-users-attended-a-contest.sql) | 2 | Jul&nbsp;17,&nbsp;2026 |
 | 1661 | [Average Time of Process per Machine](https://leetcode.com/problems/average-time-of-process-per-machine/) | Easy | Database | [approach](1661-average-time-of-process-per-machine/README.md)&nbsp;·&nbsp;[code](1661-average-time-of-process-per-machine/1661-average-time-of-process-per-machine.sql) | 1 | Jul&nbsp;18,&nbsp;2026 |
 | 1693 | [Daily Leads and Partners](https://leetcode.com/problems/daily-leads-and-partners/) | Easy | Database | [approach](1693-daily-leads-and-partners/README.md)&nbsp;·&nbsp;[code](1693-daily-leads-and-partners/1693-daily-leads-and-partners.sql) | 1 | Jul&nbsp;17,&nbsp;2026 |
+| 1789 | [Primary Department for Each Employee](https://leetcode.com/problems/primary-department-for-each-employee/) | Easy | Database | [approach](1789-primary-department-for-each-employee/README.md)&nbsp;·&nbsp;[code](1789-primary-department-for-each-employee/1789-primary-department-for-each-employee.sql) | 1 | Jul&nbsp;19,&nbsp;2026 |
 | 1873 | [Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus/) | Easy | Database | [approach](1873-calculate-special-bonus/README.md)&nbsp;·&nbsp;[code](1873-calculate-special-bonus/1873-calculate-special-bonus.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
 
 <sub><b>Syncs</b> = accepted pushes for that problem, so a re-solve bumps it.</sub>
