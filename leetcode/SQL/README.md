@@ -7,17 +7,17 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 ## Progress
 
 <!-- LEETCODE_SYNC_STATS_START -->
-![Solved: 41](https://img.shields.io/badge/Solved-41-2cbb5d?style=flat-square)
+![Solved: 42](https://img.shields.io/badge/Solved-42-2cbb5d?style=flat-square)
 ![Easy: 34](https://img.shields.io/badge/Easy-34-00b8a3?style=flat-square)
-![Medium: 7](https://img.shields.io/badge/Medium-7-ffc01e?style=flat-square)
+![Medium: 8](https://img.shields.io/badge/Medium-8-ffc01e?style=flat-square)
 ![Hard: 0](https://img.shields.io/badge/Hard-0-ff375f?style=flat-square)
 ![Updated: Jul 19, 2026](https://img.shields.io/badge/Updated-Jul%2019%2C%202026-555555?style=flat-square)
 
-![Solved by difficulty](../.assets/progress-sql-34-7-0.svg)
+![Solved by difficulty](../.assets/progress-sql-34-8-0.svg)
 
 ### Topics covered
 
-![Database: 41](https://img.shields.io/badge/Database-41-30363d?style=flat-square)
+![Database: 42](https://img.shields.io/badge/Database-42-30363d?style=flat-square)
 <!-- LEETCODE_SYNC_STATS_END -->
 
 ## Problems
@@ -36,6 +36,7 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 | 196 | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | Easy | Database | [approach](0196-delete-duplicate-emails/README.md)&nbsp;·&nbsp;[code](0196-delete-duplicate-emails/0196-delete-duplicate-emails.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
 | 197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | Easy | Database | [approach](0197-rising-temperature/README.md)&nbsp;·&nbsp;[code](0197-rising-temperature/0197-rising-temperature.sql) | 1 | Jul&nbsp;11,&nbsp;2026 |
 | 511 | [Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/) | Easy | Database | [approach](0511-game-play-analysis-i/README.md)&nbsp;·&nbsp;[code](0511-game-play-analysis-i/0511-game-play-analysis-i.sql) | 1 | Jul&nbsp;15,&nbsp;2026 |
+| 570 | [Managers with at Least 5 Direct Reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/) | Medium | Database | [approach](0570-managers-with-at-least-5-direct-reports/README.md)&nbsp;·&nbsp;[code](0570-managers-with-at-least-5-direct-reports/0570-managers-with-at-least-5-direct-reports.sql) | 1 | Jul&nbsp;19,&nbsp;2026 |
 | 577 | [Employee Bonus](https://leetcode.com/problems/employee-bonus/) | Easy | Database | [approach](0577-employee-bonus/README.md)&nbsp;·&nbsp;[code](0577-employee-bonus/0577-employee-bonus.sql) | 1 | Jul&nbsp;12,&nbsp;2026 |
 | 584 | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | Easy | Database | [approach](0584-find-customer-referee/README.md)&nbsp;·&nbsp;[code](0584-find-customer-referee/0584-find-customer-referee.sql) | 1 | Jul&nbsp;15,&nbsp;2026 |
 | 586 | [Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) | Easy | Database | [approach](0586-customer-placing-the-largest-number-of-orders/README.md)&nbsp;·&nbsp;[code](0586-customer-placing-the-largest-number-of-orders/0586-customer-placing-the-largest-number-of-orders.sql) | 3 | Jul&nbsp;15,&nbsp;2026 |
