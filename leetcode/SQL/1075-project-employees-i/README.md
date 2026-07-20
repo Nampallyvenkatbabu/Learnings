@@ -5,7 +5,7 @@
 ![Easy](https://img.shields.io/badge/Easy-00b8a3?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-2f81f7?style=flat-square)
 ![Database](https://img.shields.io/badge/Database-30363d?style=flat-square)
-![Solved Jul 15, 2026](https://img.shields.io/badge/Solved%20Jul%2015%2C%202026-555555?style=flat-square)
+![Solved Jul 20, 2026](https://img.shields.io/badge/Solved%20Jul%2020%2C%202026-555555?style=flat-square)
 
 ## How I approached it
 
@@ -26,20 +26,16 @@ I need to find the average experience years for each project, so I join the `Pro
 
 ![Time: O(n)](https://img.shields.io/badge/Time-O(n)-8250df?style=flat-square)
 ![Space: O(n)](https://img.shields.io/badge/Space-O(n)-d29922?style=flat-square)
-![Runtime: 488 ms (beats 94.4%)](https://img.shields.io/badge/Runtime-488%20ms%20(beats%2094.4%25)-2cbb5d?style=flat-square)
-![Memory: 0B (beats 100.0%)](https://img.shields.io/badge/Memory-0B%20(beats%20100.0%25)-2f81f7?style=flat-square)
 
 ```sql
 # Write your MySQL query statement below
 
-select p.project_id,
-Round(avg(e.experience_years),2) as average_years
-from
-Project p
-Inner join
-Employee e
-on p.employee_id = e.employee_id
-Group by p.project_id
+select project_id,
+avg(experience_years) as average_years
+from Employee e
+inner join Project p
+on e.employee_id = p.employee_id
+Group by project_id
 ```
 
 Source: [1075-project-employees-i.sql](./1075-project-employees-i.sql)
