@@ -27,18 +27,15 @@ I need to count the unique subjects each teacher teaches, so I group the table b
 
 ![Time: O(n)](https://img.shields.io/badge/Time-O(n)-8250df?style=flat-square)
 ![Space: O(n)](https://img.shields.io/badge/Space-O(n)-d29922?style=flat-square)
-![Runtime: 448 ms (beats 99.9%)](https://img.shields.io/badge/Runtime-448%20ms%20(beats%2099.9%25)-2cbb5d?style=flat-square)
+![Runtime: 534 ms (beats 51.3%)](https://img.shields.io/badge/Runtime-534%20ms%20(beats%2051.3%25)-2cbb5d?style=flat-square)
 ![Memory: 0B (beats 100.0%)](https://img.shields.io/badge/Memory-0B%20(beats%20100.0%25)-2f81f7?style=flat-square)
 
 ```sql
 # Write your MySQL query statement below
 
-select teacher_id,count(*) as cnt
-from
-(select teacher_id, count(*) as cnt
-from Teacher
-Group by teacher_id, subject_id) t
-Group by teacher_id
+SELECT teacher_id, COUNT(DISTINCT subject_id) AS cnt
+FROM teacher
+GROUP BY teacher_id
 ```
 
 Source: [2356-number-of-unique-subjects-taught-by-each-teacher.sql](./2356-number-of-unique-subjects-taught-by-each-teacher.sql)
