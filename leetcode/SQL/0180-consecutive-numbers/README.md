@@ -26,11 +26,13 @@ I need to find numbers that show up at least three times in a row, so I look for
 
 ![Time: O(n)](https://img.shields.io/badge/Time-O(n)-8250df?style=flat-square)
 ![Space: O(n)](https://img.shields.io/badge/Space-O(n)-d29922?style=flat-square)
+![Runtime: 552 ms (beats 78.4%)](https://img.shields.io/badge/Runtime-552%20ms%20(beats%2078.4%25)-2cbb5d?style=flat-square)
+![Memory: 0B (beats 100.0%)](https://img.shields.io/badge/Memory-0B%20(beats%20100.0%25)-2f81f7?style=flat-square)
 
 ```sql
 # Write your MySQL query statement below
 
-select l1.num as ConsecutiveNums 
+select distinct l1.num as ConsecutiveNums 
 from Logs l1
 join Logs l2
 on l1.id+1 = l2.id
