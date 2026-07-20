@@ -5,7 +5,7 @@
 ![Medium](https://img.shields.io/badge/Medium-ffc01e?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-2f81f7?style=flat-square)
 ![Database](https://img.shields.io/badge/Database-30363d?style=flat-square)
-![Solved Jul 19, 2026](https://img.shields.io/badge/Solved%20Jul%2019%2C%202026-555555?style=flat-square)
+![Solved Jul 20, 2026](https://img.shields.io/badge/Solved%20Jul%2020%2C%202026-555555?style=flat-square)
 
 ## How I approached it
 
@@ -26,7 +26,7 @@ I need to find managers with at least five direct reports, so I join the `Employ
 
 ![Time: O(n)](https://img.shields.io/badge/Time-O(n)-8250df?style=flat-square)
 ![Space: O(n)](https://img.shields.io/badge/Space-O(n)-d29922?style=flat-square)
-![Runtime: 329 ms (beats 94.8%)](https://img.shields.io/badge/Runtime-329%20ms%20(beats%2094.8%25)-2cbb5d?style=flat-square)
+![Runtime: 327 ms (beats 95.7%)](https://img.shields.io/badge/Runtime-327%20ms%20(beats%2095.7%25)-2cbb5d?style=flat-square)
 ![Memory: 0B (beats 100.0%)](https://img.shields.io/badge/Memory-0B%20(beats%20100.0%25)-2f81f7?style=flat-square)
 
 ```sql
