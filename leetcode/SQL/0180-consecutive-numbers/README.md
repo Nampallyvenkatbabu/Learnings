@@ -30,7 +30,7 @@ I need to find numbers that show up at least three times in a row, so I look for
 ```sql
 # Write your MySQL query statement below
 
-select l1.id as ConsecutiveNums 
+select l1.num as ConsecutiveNums 
 from Logs l1
 join Logs l2
 on l1.id+1 = l2.id
