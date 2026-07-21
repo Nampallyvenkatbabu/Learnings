@@ -7,17 +7,17 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 ## Progress
 
 <!-- LEETCODE_SYNC_STATS_START -->
-![Solved: 44](https://img.shields.io/badge/Solved-44-2cbb5d?style=flat-square)
-![Easy: 35](https://img.shields.io/badge/Easy-35-00b8a3?style=flat-square)
+![Solved: 45](https://img.shields.io/badge/Solved-45-2cbb5d?style=flat-square)
+![Easy: 36](https://img.shields.io/badge/Easy-36-00b8a3?style=flat-square)
 ![Medium: 9](https://img.shields.io/badge/Medium-9-ffc01e?style=flat-square)
 ![Hard: 0](https://img.shields.io/badge/Hard-0-ff375f?style=flat-square)
-![Updated: Jul 20, 2026](https://img.shields.io/badge/Updated-Jul%2020%2C%202026-555555?style=flat-square)
+![Updated: Jul 21, 2026](https://img.shields.io/badge/Updated-Jul%2021%2C%202026-555555?style=flat-square)
 
-![Solved by difficulty](../.assets/progress-sql-35-9-0.svg)
+![Solved by difficulty](../.assets/progress-sql-36-9-0.svg)
 
 ### Topics covered
 
-![Database: 44](https://img.shields.io/badge/Database-44-30363d?style=flat-square)
+![Database: 45](https://img.shields.io/badge/Database-45-30363d?style=flat-square)
 <!-- LEETCODE_SYNC_STATS_END -->
 
 ## Problems
@@ -59,6 +59,7 @@ The database track, solved in SQL: shaping queries with joins, grouping and aggr
 | 1193 | [Monthly Transactions I](https://leetcode.com/problems/monthly-transactions-i/) | Medium | Database | [approach](1193-monthly-transactions-i/README.md)&nbsp;·&nbsp;[code](1193-monthly-transactions-i/1193-monthly-transactions-i.sql) | 2 | Jul&nbsp;15,&nbsp;2026 |
 | 1211 | [Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage/) | Easy | Database | [approach](1211-queries-quality-and-percentage/README.md)&nbsp;·&nbsp;[code](1211-queries-quality-and-percentage/1211-queries-quality-and-percentage.sql) | 1 | Jul&nbsp;15,&nbsp;2026 |
 | 1251 | [Average Selling Price](https://leetcode.com/problems/average-selling-price/) | Easy | Database | [approach](1251-average-selling-price/README.md)&nbsp;·&nbsp;[code](1251-average-selling-price/1251-average-selling-price.sql) | 4 | Jul&nbsp;16,&nbsp;2026 |
+| 1280 | [Students and Examinations](https://leetcode.com/problems/students-and-examinations/) | Easy | Database | [approach](1280-students-and-examinations/README.md)&nbsp;·&nbsp;[code](1280-students-and-examinations/1280-students-and-examinations.sql) | 1 | Jul&nbsp;21,&nbsp;2026 |
 | 1378 | [Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/) | Easy | Database | [approach](1378-replace-employee-id-with-the-unique-identifier/README.md)&nbsp;·&nbsp;[code](1378-replace-employee-id-with-the-unique-identifier/1378-replace-employee-id-with-the-unique-identifier.sql) | 1 | Jul&nbsp;19,&nbsp;2026 |
 | 1393 | [Capital Gain/Loss](https://leetcode.com/problems/capital-gainloss/) | Medium | Database | [approach](1393-capital-gainloss/README.md)&nbsp;·&nbsp;[code](1393-capital-gainloss/1393-capital-gainloss.sql) | 2 | Jul&nbsp;18,&nbsp;2026 |
 | 1517 | [Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/) | Easy | Database | [approach](1517-find-users-with-valid-e-mails/README.md)&nbsp;·&nbsp;[code](1517-find-users-with-valid-e-mails/1517-find-users-with-valid-e-mails.sql) | 8 | Jul&nbsp;11,&nbsp;2026 |
